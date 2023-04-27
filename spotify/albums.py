@@ -32,7 +32,7 @@ def _match_prog_spot_album(
         return None
 
     best_match_spotify_album = next(
-        (album for album in spotify_albums if album.name == best_match_name), None
+        (album for album in spotify_albums if album.name.lower() == best_match_name), None
     )
 
     return best_match_spotify_album

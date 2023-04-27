@@ -5,5 +5,5 @@ SPOTIPY_CLIENT_SECRET = getenv("SPOTIPY_CLIENT_SECRET")
 
 DATABASE_URI = getenv(
     "DATABASE_URI",
-    "mongodb://root:leaf@127.0.0.1:27017/spotify?authSource=admin&authMechanism=SCRAM-SHA-256",
+    "mongodb://root:leaf@127.0.0.1:27018/spotify?authSource=admin&authMechanism=SCRAM-SHA-256",
 )
