@@ -14,3 +14,6 @@ crawl_*.py
 
 # IDE
 .vscode/
+
+# Logs
+*.log

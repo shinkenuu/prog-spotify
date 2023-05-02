@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1COjciJhyCQXbcaubh0A60",
+        "name": "genesis chapter 1",
+        "release_date": "2022-06-10",
+        "release_date_precision": "day",
+        "total_tracks": 17,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "1YWaABizGll91McSy7RLzg",
+                "name": "genesis555"
+            }
+        ]
+    }
+]

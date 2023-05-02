@@ -1,5 +1,4 @@
-# from time import sleep
-from typing import Any
+import logging
 
 from thefuzz import process
 from tqdm import tqdm
@@ -32,7 +31,8 @@ def _match_prog_spot_album(
         return None
 
     best_match_spotify_album = next(
-        (album for album in spotify_albums if album.name.lower() == best_match_name), None
+        (album for album in spotify_albums if album.name.lower() == best_match_name),
+        None,
     )
 
     return best_match_spotify_album
@@ -44,6 +44,9 @@ def sync(
     progarchives_album_name: str,
     spotify_albums: list[Album],
 ):
+    logging.info(
+        f"Syncing progarchives album {progarchives_album_id} {progarchives_album_name}"
+    )
     spotify_album = _match_prog_spot_album(
         progarchives_album_name=progarchives_album_name, spotify_albums=spotify_albums
     )
@@ -53,11 +56,14 @@ def sync(
         prog_album_id=int(progarchives_album_id),
         spotify_album_id=spotify_album.id if spotify_album else None,
     )
-    ProgSpotMongoRepository.upsert_one(prog_spot)
+    ProgSpotMongoRepository.upsert(prog_spot)
 
     if spotify_album:
+        logging.info(
+            f"Matched progarchives album {progarchives_album_id} {progarchives_album_name} to spotify album {spotify_album.id} {spotify_album.name}"
+        )
         spotify_album.progarchives_album_id = int(progarchives_album_id)
-        AlbumMongoRepository.upsert_one(spotify_album)
+        AlbumMongoRepository.upsert(spotify_album)
 
     return spotify_album
 

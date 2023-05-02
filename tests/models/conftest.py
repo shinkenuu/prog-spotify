@@ -54,7 +54,7 @@ def album():
     album = Album(
         id="3y67YB3vSbaopIg1VoAO1n",
         name="Foxtrot",
-        release_date=datetime(1972, 10, 6),
+        release_date='1972-10-06',
         release_date_precision="day",
         total_tracks=6,
         album_type="album",

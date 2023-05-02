@@ -1,0 +1,90 @@
+[
+    {
+        "id": "3GncI0ExXYyWnIzZe9oxRQ",
+        "name": "No Idols",
+        "release_date": "2023-04-20",
+        "release_date_precision": "day",
+        "total_tracks": 12,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "6vHBuUxrcpn1do5UaEJ7g6",
+                "name": "Domo Genesis"
+            },
+            {
+                "id": "0eVyjRhzZKke2KFYTcDkeu",
+                "name": "The Alchemist"
+            }
+        ]
+    },
+    {
+        "id": "6EPg4n0tIsQpXmfAnpLHzq",
+        "name": "Intros, Outros & Interludes",
+        "release_date": "2022-07-29",
+        "release_date_precision": "day",
+        "total_tracks": 11,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "6vHBuUxrcpn1do5UaEJ7g6",
+                "name": "Domo Genesis"
+            }
+        ]
+    },
+    {
+        "id": "3dESO7Q9gmDkYn2Y8Yrupy",
+        "name": "Arent U Glad Youre U",
+        "release_date": "2018-01-19",
+        "release_date_precision": "day",
+        "total_tracks": 8,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "6vHBuUxrcpn1do5UaEJ7g6",
+                "name": "Domo Genesis"
+            }
+        ]
+    },
+    {
+        "id": "6h6GbuoVE9hQiriHFV71Vx",
+        "name": "Purple Corolla",
+        "release_date": "2017-09-15",
+        "release_date_precision": "day",
+        "total_tracks": 10,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "6vHBuUxrcpn1do5UaEJ7g6",
+                "name": "Domo Genesis"
+            }
+        ]
+    },
+    {
+        "id": "6hcTis2h9nAjTVHKfg9kbR",
+        "name": "Genesis (Japan Version)",
+        "release_date": "2016-07-06",
+        "release_date_precision": "day",
+        "total_tracks": 13,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "6vHBuUxrcpn1do5UaEJ7g6",
+                "name": "Domo Genesis"
+            }
+        ]
+    },
+    {
+        "id": "3mhZHDmHvIUAeAYH7MrXBW",
+        "name": "Genesis",
+        "release_date": "2016-03-25",
+        "release_date_precision": "day",
+        "total_tracks": 12,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "6vHBuUxrcpn1do5UaEJ7g6",
+                "name": "Domo Genesis"
+            }
+        ]
+    }
+]

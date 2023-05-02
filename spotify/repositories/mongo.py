@@ -1,6 +1,6 @@
 from typing import Any
 
-from pymongo import MongoClient
+from pymongo import MongoClient, UpdateOne
 
 from config import DATABASE_URI
 
@@ -17,7 +17,7 @@ _spotify_db.tracks.create_index("id", unique=True)
 _spotify_db.audio_features.create_index("id", unique=True)
 
 _spotify_db.prog_spot.create_index("prog_artist_id")
-_spotify_db.prog_spot.create_index("prog_album_id", unique=True)
+_spotify_db.prog_spot.create_index("prog_album_id")
 _spotify_db.prog_spot.create_index("spot_artist_id")
 _spotify_db.prog_spot.create_index("spot_album_id")
 
@@ -43,7 +43,7 @@ class MongoRepository:
         return validated_document
 
     @classmethod
-    def upsert_one(cls, document):
+    def upsert(cls, document):
         document_json = document.dict()
         return cls._collection.replace_one(
             {"id": document_json["id"]}, document_json, upsert=True
@@ -75,7 +75,15 @@ class ProgSpotMongoRepository(MongoRepository):
     _model = ProgSpot
 
     @classmethod
-    def upsert_one(cls, document):
+    def has_progarchives_artist(cls, artist_id: str | int):
+        return cls._collection.count_documents({"prog_artist_id": int(artist_id)}) > 0
+
+    @classmethod
+    def has_progarchives_album(cls, album_id: str | int):
+        return cls._collection.count_documents({"prog_album_id": int(album_id)}) > 0
+
+    @classmethod
+    def upsert(cls, document):
         document_dict = document.dict(exclude_unset=True)
 
         upsert_keys = {
@@ -84,6 +92,7 @@ class ProgSpotMongoRepository(MongoRepository):
             if "prog" in field and value
         }
 
-        return cls._collection.replace_one(
-            upsert_keys, document_dict, upsert=True
+        return cls._collection.update_many(
+            upsert_keys, {"$set": document_dict}, upsert=True
         ).upserted_id
+    

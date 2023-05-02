@@ -29,12 +29,19 @@ class Album(BaseModel, extra=Extra.ignore):
 
     id: str
     name: str
-    release_date: date
-    release_date_precision: str
-    total_tracks: int
+    release_date: date = None
+    release_date_precision: str = None
+    total_tracks: int = None
     image_url: str = Field(alias="images", default=None)
     album_type: str = None
     artists: list[ArtistRef] = []
+
+    @validator("release_date", pre=True)
+    def parse_release_date(cls, value):
+        try:
+            return datetime.strptime(value, "%Y-%m-%d").date()
+        except Exception:
+            return None
 
     @validator("image_url", pre=True)
     def parse_image_url(cls, value):
@@ -50,7 +57,7 @@ class Album(BaseModel, extra=Extra.ignore):
 
     def dict(self, *args, **kwargs):
         _dict = super().dict(by_alias=True, *args, **kwargs) 
-        _dict['release_date'] = self.release_date.isoformat()
+        _dict['release_date'] = self.release_date.isoformat() if self.release_date else None
         _dict['_updated_at'] = self.updated_at.isoformat()
         return _dict
 

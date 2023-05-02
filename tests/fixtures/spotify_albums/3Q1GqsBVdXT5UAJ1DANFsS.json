@@ -1,0 +1,226 @@
+[
+    {
+        "id": "1zaWKNx8CqLfG6j1TZSz22",
+        "name": "Camel Heart",
+        "release_date": "2023-04-03",
+        "release_date_precision": "day",
+        "total_tracks": 11,
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "5wYNV4WXGwT4GqsVP3PjLU",
+        "name": "Clan",
+        "release_date": "2023-02-24",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "0f2fHnXwJOdQ6SfjXem8Ik",
+        "name": "russian",
+        "release_date": "2023-02-18",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "0D8lmsCo5KIsdg0L88CkWf",
+        "name": "full send it dude hahaa fuxk man",
+        "release_date": "2023-02-13",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "59QNhIO7tuv0lE4EKKVvPt",
+        "name": "stake",
+        "release_date": "2023-01-28",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "0TrRnBS11cHNEYuMBwjlEn",
+        "name": "riches",
+        "release_date": "2023-01-21",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "21tkjXiQLZeRHVKVcaV1SQ",
+        "name": "frenemy",
+        "release_date": "2023-01-17",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "2yrN9tHMWmbKN6eCEqcovs",
+        "name": "XMAS",
+        "release_date": "2023-01-16",
+        "release_date_precision": "day",
+        "total_tracks": 4,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "5bkFAyNGzrAJd313nZA3s3",
+        "name": "#fakecheck",
+        "release_date": "2023-01-16",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "0P5pBiTuC2vCamjbORQYtA",
+        "name": "desert",
+        "release_date": "2023-01-16",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "2fzPQEsEhKFT0LOl7UaEm2",
+        "name": "rn",
+        "release_date": "2023-01-16",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "3h657DqrwHjbPEYrzoMSSO",
+        "name": "tom brady",
+        "release_date": "2023-01-16",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "0Ey3dDSXy4Rottv9UZY3lp",
+        "name": "flee",
+        "release_date": "2022-11-07",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "5fdWqfSjViqBhfcB9MtHrD",
+        "name": "Twin Revolvers",
+        "release_date": "2022-05-31",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Q1GqsBVdXT5UAJ1DANFsS",
+                "name": "camelbluesmoker"
+            }
+        ]
+    },
+    {
+        "id": "7qHFKO8OYR5zCEfJqzG6BV",
+        "name": "number1",
+        "release_date": "2023-01-17",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "7Ill7TZK1ahUfrhK0A9Pci",
+                "name": "two6uns"
+            }
+        ]
+    },
+    {
+        "id": "0X9t39PFKitoqXBd7HlNIq",
+        "name": "perkocet it make me cry",
+        "release_date": "2022-03-07",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "1opZZKI5jh1ioYjWPm9j0H",
+                "name": "cxdyy1"
+            }
+        ]
+    }
+]
