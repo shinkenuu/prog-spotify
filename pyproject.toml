@@ -24,8 +24,8 @@ fetch_artist_albums = "fetch:fetch_artist_albums"
 refresh_artist = "refresh:refresh_progarchives_artist"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
 pytest = "^7.3.1"
+ruff = "^0.6.8"
 
 [build-system]
 requires = ["poetry-core"]
