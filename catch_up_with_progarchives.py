@@ -21,7 +21,7 @@ def main():
         logging.debug(f'Progarchives artist {progarchives_artist_id}')
 
         if ProgSpotMongoRepository.has_progarchives_artist(progarchives_artist_id):
-            logging.info(f'Progarchives artist already exists in mongo')
+            logging.info(f'Progarchives artist {progarchives_artist_id} already exists in mongo')
             continue
 
         progarchives_artist = progarchives_artists[progarchives_artist_id]

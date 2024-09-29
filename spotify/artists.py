@@ -57,6 +57,7 @@ def _search_prog_spot_match(
     progarchives_artist_name: str,
     progarchives_album_names: list[str],
     spotify_client: SpotifyClient = None,
+    min_candidate_pre_rate: int = 90,
     min_candidate_rate: int = 100,
     pre_rate_sample_size: int = 50,
     enough_candidate_rate: int = 250,
@@ -77,13 +78,34 @@ def _search_prog_spot_match(
             f"Rating spotify artist {spotify_artist_candidate.id} {spotify_artist_candidate.name}"
         )
 
+        logging.debug(
+            f"Pre-rating spotify artist {spotify_artist_candidate.id} by name"
+        )
+        # This prevents eagerly fetching unpromising artists albums, wasting API quota
+        candidate_pre_rate = _rate_candidate(
+            progarchives_artist_name=progarchives_artist_name,
+            progarchives_album_names=[],
+            spotify_artist_name=spotify_artist_candidate.name,
+            spotify_albums=[],
+        )
+
+        logging.debug(
+            f"Pre-rated spotify artist {spotify_artist_candidate.id} by name  with {candidate_pre_rate}"
+        )
+
+        if candidate_pre_rate < min_candidate_pre_rate:
+            logging.debug(f"Pre-rate {candidate_pre_rate} is not enough")
+            continue
+
+        logging.debug(
+            f"Pre-rating spotify artist {spotify_artist_candidate.id} by albums"
+        )
+        # This prevents eagerly fetching unpromising artists albums, wasting API quota
+
         lazy_candidate_spotify_albums = spotify_client.artist_albums(
             artist_id=spotify_artist_candidate.id,
             album_type="album",
         )
-
-        logging.debug(f"Pre-rating spotify artist {spotify_artist_candidate.id}")
-        # This prevents eagerly fetching unpromising artists albums, wasting API quota
 
         pre_rate_spotify_albums = list(
             itertools.islice(lazy_candidate_spotify_albums, pre_rate_sample_size)

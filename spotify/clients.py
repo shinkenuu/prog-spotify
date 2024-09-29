@@ -99,7 +99,7 @@ class SpotifyClient:
         return query
 
     def _paginate(self, results, model):
-        for item in self._generate_items(results):
+        for item in self._generate_items(results, sleep_seconds=0):
             if item:  # Sometimes it comes as None
                 yield model(**item)
 
