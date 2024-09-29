@@ -1,7 +1,6 @@
 import pytest
 
 from spotify.albums import _match_prog_spot_album
-from spotify.models.spotify import Album
 
 from tests.albums import fixtures
 

@@ -1,4 +1,3 @@
-from datetime import date
 from spotify.models.spotify import Artist, Album, Track, AudioFeature
 
 
