@@ -1,4 +1,5 @@
 import logging
+import re
 
 from thefuzz import process
 from tqdm import tqdm
@@ -14,6 +15,42 @@ from spotify.repositories.mongo import (
 )
 
 
+def _score_album_version(album_name: str) -> int:
+    """Score album version preference. Higher is better.
+
+    Prefers remastered/stereo/expanded editions over plain versions.
+    Penalizes deluxe/anniversary editions.
+    """
+    name_lower = album_name.lower()
+    score = 0
+
+    # Bonus for remastered/stereo/mono/expanded versions
+    if "remaster" in name_lower:
+        score += 10
+    if "stereo" in name_lower:
+        score += 10
+    if "mono" in name_lower:
+        score += 10
+    if "expanded" in name_lower:
+        score += 5
+
+    # Penalty for deluxe/anniversary editions
+    if "deluxe" in name_lower:
+        score -= 10
+    if "anniversary" in name_lower:
+        score -= 10
+
+    return score
+
+
+def _get_base_album_name(album_name: str) -> str:
+    """Extract base album name without parenthetical version info.
+
+    e.g. 'The Snow Goose (2023 Remastered & Expanded Edition)' -> 'the snow goose'
+    """
+    return re.sub(r'\s*\(.*\)\s*$', '', album_name).strip().lower()
+
+
 def _match_prog_spot_album(
     progarchives_album_name: str,
     spotify_albums: list[Album],
@@ -22,20 +59,27 @@ def _match_prog_spot_album(
     if not spotify_albums:
         return None
 
-    spotify_album_names = [album.name.lower() for album in spotify_albums]
-    best_match_name, best_match_score = process.extractOne(
-        progarchives_album_name.lower(), spotify_album_names
-    )
+    query_base = progarchives_album_name.lower()
 
-    if best_match_score < album_fuzz_threshold:
+    # Match using base album names (without parenthetical version info),
+    # then apply version preference as tiebreaker among candidates meeting threshold.
+    # This ensures all editions of the same album get equal fuzzy scores,
+    # so version preference (remastered/stereo > plain > deluxe/anniversary) decides.
+    candidates = []
+    for album in spotify_albums:
+        base_name = _get_base_album_name(album.name)
+        fuzzy_score = process.extractOne(query_base, [base_name])[1]
+        if fuzzy_score >= album_fuzz_threshold:
+            version_pref = _score_album_version(album.name)
+            candidates.append((album, fuzzy_score, version_pref))
+
+    if not candidates:
         return None
 
-    best_match_spotify_album = next(
-        (album for album in spotify_albums if album.name.lower() == best_match_name),
-        None,
-    )
+    # Sort by fuzzy score first, then version preference as tiebreaker
+    best_album, _, _ = max(candidates, key=lambda x: (x[1], x[2]))
 
-    return best_match_spotify_album
+    return best_album
 
 
 def sync(

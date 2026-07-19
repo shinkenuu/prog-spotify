@@ -44,13 +44,16 @@ def test_rates_the_desired_higher_than_undesired_artist(
     desired_progarchives_artist = fixtures.progarchives_artist(
         desired_progarchives_artist_id
     )
+    desired_progarchives_album_names = fixtures.get_progarchives_album_name_list(
+        desired_progarchives_artist_id
+    )
     desired_spotify_artist = fixtures.spotify_artist(desired_spotify_artist_id)
     desired_spotify_artist_albums = fixtures.spotify_albums(desired_spotify_artist_id)
 
     # ACT
     desired_candidate_rate = _rate_candidate(
         progarchives_artist_name=desired_progarchives_artist["name"],
-        progarchives_album_names=desired_progarchives_artist["albums"],
+        progarchives_album_names=desired_progarchives_album_names,
         spotify_artist_name=desired_spotify_artist.name,
         spotify_albums=desired_spotify_artist_albums,
     )
@@ -64,7 +67,7 @@ def test_rates_the_desired_higher_than_undesired_artist(
 
         undesired_candidates_rate = _rate_candidate(
             progarchives_artist_name=desired_progarchives_artist["name"],
-            progarchives_album_names=desired_progarchives_artist["albums"],
+            progarchives_album_names=desired_progarchives_album_names,
             spotify_artist_name=undesired_spotify_artist.name,
             spotify_albums=undesired_spotify_artist_albums,
         )

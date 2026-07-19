@@ -28,7 +28,7 @@ class ArtistRef(BaseModel):
 
 class Album(BaseModel):
     model_config = ConfigDict(extra="ignore")
-    progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
+    progarchives_album_id: int | None = Field(alias="_progarchives_album_id", default=None)
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str
@@ -55,6 +55,10 @@ class Album(BaseModel):
 
         if not images:
             return None
+
+        # Handle plain string URL (e.g., from test fixtures)
+        if isinstance(images, str):
+            return images
 
         sorted_images = sorted(images, key=lambda _: _["height"] * _["width"])
         bigger_image = sorted_images[-1]
