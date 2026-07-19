@@ -1,7 +1,26 @@
 import json
+from pathlib import Path
 from typing import Iterable
 
 from spotify.models import spotify as spotify_models
+
+
+_VISITED_PATH = Path("./storage/.visited")
+
+
+def read_visited(path: Path = _VISITED_PATH) -> set:
+    """Read a set of visited IDs from a JSON file."""
+    if not path.exists():
+        return set()
+    with open(path) as f:
+        return set(json.load(f))
+
+
+def write_visited(visited: set, path: Path = _VISITED_PATH) -> None:
+    """Write a set of visited IDs to a JSON file."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(list(visited), f)
 
 class JsonReadMixin:
     _path: str

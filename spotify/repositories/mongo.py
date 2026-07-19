@@ -94,6 +94,42 @@ class AudioFeatureMongoRepository(MongoRepository):
     _model = AudioFeature
 
 
+# ---------------------------------------------------------------------------
+# Convenience helpers used by tracks / audio_features workflows
+# ---------------------------------------------------------------------------
+
+def find_prog_spot_albums() -> list[dict]:
+    """Find ProgSpot docs that have both prog_album_id and spot_album_id."""
+    collection = MongoDB()._db.prog_spot
+    return list(
+        collection.find(
+            {"prog_album_id": {"$ne": None}, "spot_album_id": {"$ne": None}},
+            {"prog_album_id": 1, "spot_album_id": 1},
+        )
+    )
+
+
+def find_tracks() -> list[dict]:
+    """Find all tracks."""
+    collection = MongoDB()._db.tracks
+    return list(collection.find({}, {"id": 1}))
+
+
+def upsert_track(track_dict: dict) -> None:
+    """Upsert a single track document."""
+    collection = MongoDB()._db.tracks
+    collection.replace_one({"id": track_dict["id"]}, track_dict, upsert=True)
+
+
+def insert_audio_features(features: list[dict]) -> None:
+    """Insert audio feature documents (skips duplicates)."""
+    collection = MongoDB()._db.audio_features
+    if not features:
+        return
+    for feature in features:
+        collection.replace_one({"id": feature["id"]}, feature, upsert=True)
+
+
 class ProgSpotMongoRepository(MongoRepository):
     _collection_name = "prog_spot"
     _model = ProgSpot
