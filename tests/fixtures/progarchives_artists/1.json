@@ -1,20 +1,857 @@
 {
     "name": "GENESIS",
     "albums": [
-        "FOXTROT",
-        "NURSERY CRYME",
-        "A TRICK OF THE TAIL",
-        "FROM GENESIS TO REVELATION",
-        "SELLING ENGLAND BY THE POUND",
-        "THE LAMB LIES DOWN ON BROADWAY",
-        "WIND & WUTHERING",
-        "...AND THEN THERE WERE THREE...",
-        "DUKE",
-        "ABACAB",
-        "GENESIS",
-        "INVISIBLE TOUCH",
-        "WE CAN'T DANCE",
-        "CALLING ALL STATIONS",
-        "TRESPASS"
+        {
+            "id": 73171,
+            "name": "THE LAST DOMINO?",
+            "release_year": 2021,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 25377,
+            "name": "GENESIS LIVE 1973 - 2007",
+            "release_year": 2009,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 1515,
+            "name": "...AND THEN THERE WERE THREE...",
+            "release_year": 1978,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 7500,
+            "name": "INVISIBLE TOUCH - LIVE AT WEMBLEY (DVD)",
+            "release_year": 2004,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 47760,
+            "name": "SUM OF THE PARTS",
+            "release_year": 2014,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 18837,
+            "name": "THE GENESIS SONGBOOK",
+            "release_year": 2001,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 1521,
+            "name": "WE CAN'T DANCE",
+            "release_year": 1991,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1524,
+            "name": "CALLING ALL STATIONS",
+            "release_year": 1997,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1518,
+            "name": "THREE SIDES LIVE",
+            "release_year": 1982,
+            "record_mode": "Live"
+        },
+        {
+            "id": 1522,
+            "name": "LIVE - THE WAY WE WALK VOLUME ONE - THE SHORTS",
+            "release_year": 1992,
+            "record_mode": "Live"
+        },
+        {
+            "id": 17191,
+            "name": "GENESIS 1983-1998",
+            "release_year": 2007,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 15129,
+            "name": "GENESIS 1976 - 1982",
+            "release_year": 2007,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 1514,
+            "name": "SPOT THE PIGEON",
+            "release_year": 1977,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 4,
+            "name": "GENESIS LIVE",
+            "release_year": 1973,
+            "record_mode": "Live"
+        },
+        {
+            "id": 22024,
+            "name": "INSIDE GENESIS 1975-1980",
+            "release_year": 2003,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 12429,
+            "name": "INSIDE GENESIS THE GABRIEL YEARS 1970-1975",
+            "release_year": 2004,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 12193,
+            "name": "ROCK REVIEW - A CRITICAL RETROSPECTIVE",
+            "release_year": 2005,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 16146,
+            "name": "UP CLOSE AND PERSONAL (DVD AND BOOK SET)",
+            "release_year": 2007,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 45713,
+            "name": "PRESENTING GENESIS",
+            "release_year": 1974,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 51435,
+            "name": "70'S POP SOUND",
+            "release_year": 1974,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45717,
+            "name": "GENESIS COLLECTION VOLUME TWO",
+            "release_year": 1975,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45745,
+            "name": "NURSERY CRYME \/ FOXTROT",
+            "release_year": 1979,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45741,
+            "name": "THE LAMB LIES DOWN ON BROADWAY",
+            "release_year": 1981,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45742,
+            "name": "GENESIS",
+            "release_year": 1981,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 51436,
+            "name": "THE VERTIGO YEARS",
+            "release_year": 1990,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 17190,
+            "name": "14 FROM OUR PAST",
+            "release_year": 2007,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 11428,
+            "name": "A WINTER'S TALE \/ ONE-EYED HOUND",
+            "release_year": 1968,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 11427,
+            "name": "THE SILENT SUN \/ THAT'S ME",
+            "release_year": 1968,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45682,
+            "name": "WATCHER OF THE SKIES",
+            "release_year": 1973,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 43173,
+            "name": "YOUR OWN SPECIAL WAY",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 17084,
+            "name": "DUCHESS\/OPEN DOOR",
+            "release_year": 1980,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 17085,
+            "name": "MISUNDERSTANDING",
+            "release_year": 1980,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22395,
+            "name": "THE LADY LIES ",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22393,
+            "name": "MAN ON THE CORNER ",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22381,
+            "name": "FIRTH OF FIFTH",
+            "release_year": 1983,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22386,
+            "name": "THAT'S ALL",
+            "release_year": 1983,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 11411,
+            "name": "INVISIBLE TOUCH",
+            "release_year": 1986,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22406,
+            "name": "JESUS HE KNOWS ME 5'' CD SINGLE",
+            "release_year": 1992,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22404,
+            "name": "THE CARPET CRAWLERS 1999 PROMO CD",
+            "release_year": 1999,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 7499,
+            "name": "THE ORIGINAL ALBUM",
+            "release_year": 1998,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 9638,
+            "name": "HAPPY THE MAN ",
+            "release_year": 1972,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 18820,
+            "name": "COUNTING OUT TIME \/ RIDING THE SCREE ",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 7853,
+            "name": "THREE SIDES LIVE",
+            "release_year": 1982,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 7498,
+            "name": "THE WAY WE WALK (DVD)",
+            "release_year": 2001,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 7757,
+            "name": "THE MAMA TOUR",
+            "release_year": 1985,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 18661,
+            "name": "IN LONDON",
+            "release_year": 2007,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 9559,
+            "name": "REFLECTION - ROCK THEATRE",
+            "release_year": 1975,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 9639,
+            "name": "TWILIGHT ALEHOUSE ",
+            "release_year": 1973,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22394,
+            "name": "ABACAB",
+            "release_year": 1981,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45748,
+            "name": "THE GREATEST",
+            "release_year": 1998,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 17086,
+            "name": "MANY TOO MANY",
+            "release_year": 1978,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 9440,
+            "name": "3 X 3",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 18664,
+            "name": "WHEN IN ROME",
+            "release_year": 2008,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 1517,
+            "name": "ABACAB",
+            "release_year": 1981,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1520,
+            "name": "INVISIBLE TOUCH",
+            "release_year": 1986,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1523,
+            "name": "LIVE - THE WAY WE WALK VOLUME TWO - THE LONGS",
+            "release_year": 1993,
+            "record_mode": "Live"
+        },
+        {
+            "id": 17179,
+            "name": "LIVE OVER EUROPE 2007",
+            "release_year": 2007,
+            "record_mode": "Live"
+        },
+        {
+            "id": 15605,
+            "name": "IN CONCERT 1976",
+            "release_year": 1977,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 1606,
+            "name": "TURN IT ON AGAIN - THE HITS",
+            "release_year": 1999,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 1513,
+            "name": "SECONDS OUT",
+            "release_year": 1977,
+            "record_mode": "Live"
+        },
+        {
+            "id": 7864,
+            "name": "A HISTORY OF GENESIS",
+            "release_year": 1991,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 17420,
+            "name": "THE GABRIEL ERA ",
+            "release_year": 2006,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 30141,
+            "name": "THE BEST...",
+            "release_year": 1976,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 27647,
+            "name": "GENESIS IN CONCERT",
+            "release_year": 1977,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45743,
+            "name": "GENESIS",
+            "release_year": 1981,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 46741,
+            "name": "R-KIVE",
+            "release_year": 2014,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 26947,
+            "name": "GENESIS",
+            "release_year": 1969,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 44496,
+            "name": "I KNOW WHAT I LIKE (IN YOUR WARDROBE)",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 44497,
+            "name": "THE CARPET CRAWL",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45687,
+            "name": "RIPPLES",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45688,
+            "name": "GO WEST YOUNG MAN (IN THE MOTHERLODE)",
+            "release_year": 1978,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 11412,
+            "name": "THROWING IT ALL AWAY ",
+            "release_year": 1986,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 7765,
+            "name": "VISIBLE TOUCH (VHS)",
+            "release_year": 1987,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 11485,
+            "name": "GENESIS LIVE VIDEO",
+            "release_year": 2004,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 7735,
+            "name": "THE VIDEO SHOW",
+            "release_year": 2004,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 22407,
+            "name": "THE KNIFE",
+            "release_year": 1971,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22398,
+            "name": "FOLLOW YOU FOLLOW ME",
+            "release_year": 1978,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 11415,
+            "name": "LAND OF CONFUSION ",
+            "release_year": 1986,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 12593,
+            "name": "SHIPWRECKED",
+            "release_year": 1997,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 12592,
+            "name": "CONGO",
+            "release_year": 1997,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 1512,
+            "name": "WIND & WUTHERING",
+            "release_year": 1976,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 12594,
+            "name": "NOT ABOUT US",
+            "release_year": 1998,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 7373,
+            "name": "THE PLATINUM COLLECTION",
+            "release_year": 2004,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 16260,
+            "name": "KEEP IT DARK",
+            "release_year": 1981,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 26953,
+            "name": "NO REPLY AT ALL",
+            "release_year": 1981,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 26952,
+            "name": "TURN IT ON AGAIN",
+            "release_year": 1980,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22391,
+            "name": "I KNOW WHAT I LIKE (IN YOUR WARDROBE)",
+            "release_year": 1973,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 18819,
+            "name": "THE CARPET CRAWLERS \/ THE WAITING ROOM",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22403,
+            "name": "COUNTING OUT TIME",
+            "release_year": 1974,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 39724,
+            "name": "ENTANGLED",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47496,
+            "name": "TURN IT ON AGAIN (LIVE)",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 39722,
+            "name": "TAKING IT ALL TOO HARD",
+            "release_year": 1984,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 39723,
+            "name": "TELL ME WHY",
+            "release_year": 1993,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 53387,
+            "name": "...CALLING ALL STATIONS... ALBUM SAMPLER...",
+            "release_year": 1997,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 35658,
+            "name": "LAND OF CONFUSION",
+            "release_year": 2010,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 22387,
+            "name": "TONIGHT, TONIGHT, TONIGHT 12''",
+            "release_year": 1987,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22390,
+            "name": "HOLD ON MY HEART",
+            "release_year": 1992,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22399,
+            "name": "I CAN'T DANCE",
+            "release_year": 1992,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 50906,
+            "name": "THE MOVIE BOX",
+            "release_year": 2009,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 47489,
+            "name": "I KNOW WHAT I LIKE (IN YOUR WARDROBE) \/ CARPET CRAWL",
+            "release_year": 1977,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45693,
+            "name": "HOME BY THE SEA",
+            "release_year": 1983,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 44495,
+            "name": "THE LAMB LIES DOWN ON BROADWAY",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47495,
+            "name": "A TRICK OF THE TAIL \/ CARPET CRAWL",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47493,
+            "name": "ENTANGLED \/ RIPPLES",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47494,
+            "name": "A TRICK OF THE TAIL \/ SQUONK",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 44498,
+            "name": "A TRICK OF THE TAIL",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47490,
+            "name": "I KNOW WHAT I LIKE \/ MORE FOOL ME",
+            "release_year": 1973,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47488,
+            "name": "I KNOW WHAT I LIKE (IN YOUR WARDROBE) \/ AFTER THE ORDEAL",
+            "release_year": 1973,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47492,
+            "name": "THE LAMB LIES DOWN ON BROADWAY (PROMO)",
+            "release_year": 1974,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47486,
+            "name": "TONIGHT, TONIGHT, TONIGHT EXCLUSIVE CANDID INTERVIEW",
+            "release_year": 1986,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47497,
+            "name": "FOLLOW YOU, FOLLOW ME \/ A TRICK OF THE TAIL",
+            "release_year": 1983,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47491,
+            "name": "I KNOW WHAT I LIKE (IN YOUR WARDROBE) \/ COUNTING OUT TIME",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22396,
+            "name": "NO SON OF MINE",
+            "release_year": 1991,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22389,
+            "name": "TONIGHT, TONIGHT TONIGHT TONIGHT 7''",
+            "release_year": 1987,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22405,
+            "name": "TELL ME WHY 5'' CD SINGLE",
+            "release_year": 1992,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22392,
+            "name": "PAPERLATE PICTURE 7''",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45747,
+            "name": "GENESIS",
+            "release_year": 1989,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 1510,
+            "name": "SELLING ENGLAND BY THE POUND",
+            "release_year": 1973,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 2448,
+            "name": "TRESPASS",
+            "release_year": 1970,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 2,
+            "name": "FOXTROT",
+            "release_year": 1972,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1511,
+            "name": "THE LAMB LIES DOWN ON BROADWAY",
+            "release_year": 1974,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 3,
+            "name": "NURSERY CRYME",
+            "release_year": 1971,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1519,
+            "name": "GENESIS",
+            "release_year": 1983,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 45715,
+            "name": "GENESIS COLLECTION VOLUME ONE",
+            "release_year": 1975,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 6,
+            "name": "FROM GENESIS TO REVELATION",
+            "release_year": 1969,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 5,
+            "name": "A TRICK OF THE TAIL",
+            "release_year": 1976,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 1516,
+            "name": "DUKE",
+            "release_year": 1980,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 45746,
+            "name": "THE STORY OF GENESIS",
+            "release_year": 1978,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 16122,
+            "name": "TURN IT ON AGAIN - BEST OF 81-83",
+            "release_year": 1991,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 1605,
+            "name": "ARCHIVE 1967-1975",
+            "release_year": 1998,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 1604,
+            "name": "ARCHIVE #2 1976-1992",
+            "release_year": 2000,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 18642,
+            "name": "TURN IT ON AGAIN THE HITS -THE TOUR EDITION",
+            "release_year": 2007,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 20468,
+            "name": "GENESIS 1970 -75",
+            "release_year": 2008,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45749,
+            "name": "THE MAGIC OF TIME",
+            "release_year": 2013,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 77801,
+            "name": "BBC BROADCASTS",
+            "release_year": 2023,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 96529,
+            "name": "THE LAMB LIES DOWN ON BROADWAY (50TH ANNIVERSARY DELUXE EDITION)",
+            "release_year": 2025,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 45681,
+            "name": "NURSERY CRYME",
+            "release_year": 1972,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22397,
+            "name": "MAMA",
+            "release_year": 1983,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 22384,
+            "name": "ILLEGAL ALIEN",
+            "release_year": 1983,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 11413,
+            "name": "IN TOO DEEP ",
+            "release_year": 1986,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 45695,
+            "name": "WE CAN'T DANCE (SPECIAL EDITION VOLKSWAGEN)",
+            "release_year": 1991,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 13452,
+            "name": "NEVER A TIME",
+            "release_year": 1993,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        }
     ]
 }

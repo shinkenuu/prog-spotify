@@ -1,10 +1,13 @@
 [
     {
-        "id": "68RGB8FnqDTV7Xq0vEOJLs",
-        "name": "Moonmadness (Rarities Edition)",
-        "release_date": "2010-01-01",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.123184+00:00",
+        "id": "0h03X2QfHnlARPd3Az2ky9",
+        "name": "The Single Factor (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-24",
         "release_date_precision": "day",
-        "total_tracks": 11,
+        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e0f651ea4b6202f5a67320e1",
         "album_type": "album",
         "artists": [
             {
@@ -14,11 +17,14 @@
         ]
     },
     {
-        "id": "33X0IU4aUe4b3WsfGnjU8W",
-        "name": "Nude (Expanded Edition)",
-        "release_date": "2009-01-01",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124519+00:00",
+        "id": "78XGNvqT155xictf3VChQh",
+        "name": "Stationary Traveller (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-24",
         "release_date_precision": "day",
-        "total_tracks": 25,
+        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b273ea50f573eb4bdc6c304c5344",
         "album_type": "album",
         "artists": [
             {
@@ -28,11 +34,14 @@
         ]
     },
     {
-        "id": "5P5NLKRmXqMZ5m3RQqzD5y",
-        "name": "Rain Dances",
-        "release_date": "2009-01-01",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124564+00:00",
+        "id": "79wcQyQKExMySat1lLacST",
+        "name": "Rain Dances (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-24",
         "release_date_precision": "day",
-        "total_tracks": 16,
+        "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b273f82e61ab5074f88d66f72066",
         "album_type": "album",
         "artists": [
             {
@@ -42,11 +51,14 @@
         ]
     },
     {
-        "id": "4NLWM4hSjXnB1oA6HkIGjc",
-        "name": "A Live Record",
-        "release_date": "2002-01-01",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124593+00:00",
+        "id": "67lhFaVaejkjxuR9JEwm91",
+        "name": "Nude (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-24",
         "release_date_precision": "day",
         "total_tracks": 30,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e4edd633716ed5baad25aac4",
         "album_type": "album",
         "artists": [
             {
@@ -56,11 +68,14 @@
         ]
     },
     {
-        "id": "13atveoUTq5aoQuCnn8kWA",
-        "name": "Pressure Points: Live In Concert (Expanded Edition)",
-        "release_date": "1984-05-11",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124617+00:00",
+        "id": "0ydlFeZLxbeluvX2NQN2Ad",
+        "name": "I Can See Your House From Here (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-24",
         "release_date_precision": "day",
-        "total_tracks": 16,
+        "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b273999f93ab3d189bb36967533d",
         "album_type": "album",
         "artists": [
             {
@@ -70,11 +85,133 @@
         ]
     },
     {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124639+00:00",
+        "id": "2WO6VIu5x3rMXWcMzH36jl",
+        "name": "Camel (Expanded Edition)",
+        "release_date": "2023-11-24",
+        "release_date_precision": "day",
+        "total_tracks": 17,
+        "images": "https://i.scdn.co/image/ab67616d0000b273572a2c8c8092c82b9dfd48fc",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124660+00:00",
+        "id": "3pAWQqtQZPwWvZBCFDm4xg",
+        "name": "Breathless (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-24",
+        "release_date_precision": "day",
+        "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e891ccd03f4722e86a682de8",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124679+00:00",
+        "id": "4sOKNmBjW7IwfEVGGSrrT4",
+        "name": "Moonmadness (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-17",
+        "release_date_precision": "day",
+        "total_tracks": 18,
+        "images": "https://i.scdn.co/image/ab67616d0000b27341f814a9e287a16e422a48b9",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124698+00:00",
+        "id": "0BD0bKRAFt8Z5q2NqCTPsN",
+        "name": "The Snow Goose (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-11-03",
+        "release_date_precision": "day",
+        "total_tracks": 36,
+        "images": "https://i.scdn.co/image/ab67616d0000b2732f7050e16585dead6c7820c4",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124717+00:00",
+        "id": "2dfny28poOXsb8HxYGbRYf",
+        "name": "Mirage (2023 Remastered & Expanded Edition)",
+        "release_date": "2023-10-20",
+        "release_date_precision": "day",
+        "total_tracks": 17,
+        "images": "https://i.scdn.co/image/ab67616d0000b273d154fb02b202c608d2255b86",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124735+00:00",
+        "id": "6o8DatzTclI30aDIewJJi7",
+        "name": "Chameloen",
+        "release_date": "1989-12-01",
+        "release_date_precision": "day",
+        "total_tracks": 11,
+        "images": "https://i.scdn.co/image/ab67616d0000b27306e561fa7e5bd67c95631217",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124755+00:00",
+        "id": "0fibRfcWoGE953jUQOHfso",
+        "name": "Mirage (Remastered 1985)",
+        "release_date": "1985-05-31",
+        "release_date_precision": "day",
+        "total_tracks": 7,
+        "images": "https://i.scdn.co/image/ab67616d0000b273be1ad85e778a8a142f5cb65e",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124774+00:00",
         "id": "5nPm3Gykzwe9Cvjc8xGLdA",
         "name": "Pressure Points - Camel Live In Concert",
         "release_date": "1984-01-01",
         "release_date_precision": "day",
         "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b2737a68cb2771173ca87cc09346",
         "album_type": "album",
         "artists": [
             {
@@ -84,97 +221,24 @@
         ]
     },
     {
-        "id": "7okonBIyWklRj3gJ8mS9I3",
-        "name": "Stationary Traveller (Expanded Edition)",
-        "release_date": null,
-        "release_date_precision": "year",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
-        "id": "6vaoCVUFVpPvMsLsxZptZ3",
-        "name": "KNH Tokyo 1980 (live)",
-        "release_date": "1980-01-27",
-        "release_date_precision": "day",
-        "total_tracks": 6,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
-        "id": "16jsgpwPgaCGKDmzFNXW4H",
-        "name": "I Can See Your House from Here",
-        "release_date": null,
-        "release_date_precision": "year",
-        "total_tracks": 9,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
-        "id": "2UzcBmNQt45lrGuwIYEjec",
-        "name": "I Can See Your House From Here (Expanded Edition)",
-        "release_date": null,
-        "release_date_precision": "year",
-        "total_tracks": 11,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
-        "id": "2asFb5LseI1P7fqVGVJpOs",
-        "name": "A Live Record",
-        "release_date": "1978-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 22,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
-        "id": "4pFH2hiWMaT4X5pXZCygOq",
-        "name": "Breathless",
-        "release_date": "1978-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 9,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124792+00:00",
         "id": "3kvGb0SzIxGIihsgwv6oPr",
         "name": "Breathless",
         "release_date": null,
         "release_date_precision": "year",
         "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b2735d4bac0c23eb52f8175fdc78",
         "album_type": "album",
         "artists": [
+            {
+                "id": "4uFOECgcoe2GYr70DyIFXn",
+                "name": "Andrew Latimer"
+            },
+            {
+                "id": "6cVKS10gjquJQsSUT9FYiG",
+                "name": "Peter Bardens"
+            },
             {
                 "id": "3Uz6jx81OY2J5K8Z4wmy2P",
                 "name": "Camel"
@@ -182,27 +246,24 @@
         ]
     },
     {
-        "id": "1YRwNrwQKhQpEBUeLCtucL",
-        "name": "Breathless",
-        "release_date": null,
-        "release_date_precision": "year",
-        "total_tracks": 9,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124814+00:00",
         "id": "5g9XeA0rKJANXqwOVio3o4",
         "name": "Rain Dances",
         "release_date": "1977-01-01",
         "release_date_precision": "day",
         "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b27373d5f79086d6d4bf84cd5307",
         "album_type": "album",
         "artists": [
+            {
+                "id": "4uFOECgcoe2GYr70DyIFXn",
+                "name": "Andrew Latimer"
+            },
+            {
+                "id": "6cVKS10gjquJQsSUT9FYiG",
+                "name": "Peter Bardens"
+            },
             {
                 "id": "3Uz6jx81OY2J5K8Z4wmy2P",
                 "name": "Camel"
@@ -210,25 +271,14 @@
         ]
     },
     {
-        "id": "4JgtJIcF1tOQC91OC1mt5f",
-        "name": "Moonmadness",
-        "release_date": "1976-05-01",
-        "release_date_precision": "day",
-        "total_tracks": 7,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
-                "name": "Camel"
-            }
-        ]
-    },
-    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124841+00:00",
         "id": "5Q6eKTQNsOyu0fCpAFxuHR",
         "name": "Moonmadness",
         "release_date": "1976-03-26",
         "release_date_precision": "day",
         "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b273ecbc7b6ca15b79ca7ff05bd2",
         "album_type": "album",
         "artists": [
             {
@@ -238,12 +288,163 @@
         ]
     },
     {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124905+00:00",
+        "id": "2zjMr81JneU78DpZnOnT5X",
+        "name": "Remote Romance (Remastered 1985)",
+        "release_date": "1985-02-01",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b2733f286a9b1addc9df336725a2",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124945+00:00",
+        "id": "5ENfVvzcByeCeOX3vbIKli",
+        "name": "The Live Recordings 1974 \u2013 1977",
+        "release_date": "2023-11-24",
+        "release_date_precision": "day",
+        "total_tracks": 85,
+        "images": "https://i.scdn.co/image/ab67616d0000b273acefc14cbfc965e806712a8a",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.124981+00:00",
+        "id": "5P5NLKRmXqMZ5m3RQqzD5y",
+        "name": "Rain Dances",
+        "release_date": "2009-01-01",
+        "release_date_precision": "day",
+        "total_tracks": 16,
+        "images": "https://i.scdn.co/image/ab67616d0000b2733c233927d348acbb33ee4a47",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "6cVKS10gjquJQsSUT9FYiG",
+                "name": "Peter Bardens"
+            },
+            {
+                "id": "4uFOECgcoe2GYr70DyIFXn",
+                "name": "Andrew Latimer"
+            },
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125008+00:00",
+        "id": "33X0IU4aUe4b3WsfGnjU8W",
+        "name": "Nude (Expanded Edition)",
+        "release_date": "2009-01-01",
+        "release_date_precision": "day",
+        "total_tracks": 25,
+        "images": "https://i.scdn.co/image/ab67616d0000b2737d503e5cfd95f52907734580",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "4uFOECgcoe2GYr70DyIFXn",
+                "name": "Andrew Latimer"
+            },
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125029+00:00",
+        "id": "4NLWM4hSjXnB1oA6HkIGjc",
+        "name": "A Live Record",
+        "release_date": "2002-01-01",
+        "release_date_precision": "day",
+        "total_tracks": 30,
+        "images": "https://i.scdn.co/image/ab67616d0000b2739947c3ecb6d7524f7b8a24fc",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125047+00:00",
+        "id": "13atveoUTq5aoQuCnn8kWA",
+        "name": "Pressure Points: Live In Concert (Expanded Edition)",
+        "release_date": "1984-05-11",
+        "release_date_precision": "day",
+        "total_tracks": 16,
+        "images": "https://i.scdn.co/image/ab67616d0000b27304b6c0c50dbe0a8195de113a",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125071+00:00",
+        "id": "7okonBIyWklRj3gJ8mS9I3",
+        "name": "Stationary Traveller (Expanded Edition)",
+        "release_date": null,
+        "release_date_precision": "year",
+        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b273af5c8f54bb6f9f49ea021bf9",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125089+00:00",
+        "id": "2UzcBmNQt45lrGuwIYEjec",
+        "name": "I Can See Your House From Here (Expanded Edition)",
+        "release_date": null,
+        "release_date_precision": "year",
+        "total_tracks": 11,
+        "images": "https://i.scdn.co/image/ab67616d0000b273a5a422526541417ff7c19d94",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+                "name": "Camel"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125105+00:00",
         "id": "7ny9OWZ336Y4gGSSgHlkFB",
         "name": "The Snow Goose",
         "release_date": "1975-04-15",
         "release_date_precision": "day",
         "total_tracks": 21,
-        "album_type": "album",
+        "images": "https://i.scdn.co/image/ab67616d0000b273efb0c17ee823ccfa2a091663",
+        "album_type": "compilation",
         "artists": [
             {
                 "id": "3Uz6jx81OY2J5K8Z4wmy2P",
@@ -252,12 +453,15 @@
         ]
     },
     {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125124+00:00",
         "id": "2DZEwt8Lhz6PuqxsJWF7Ap",
         "name": "Mirage",
         "release_date": "1974-01-01",
         "release_date_precision": "day",
         "total_tracks": 9,
-        "album_type": "album",
+        "images": "https://i.scdn.co/image/ab67616d0000b27311537abd008a150b3f88dcaf",
+        "album_type": "compilation",
         "artists": [
             {
                 "id": "3Uz6jx81OY2J5K8Z4wmy2P",
@@ -266,179 +470,14 @@
         ]
     },
     {
-        "id": "3IadfBV93fChW3RlUryCxT",
-        "name": "1970s Jazz For Kids",
-        "release_date": "2022-06-03",
-        "release_date_precision": "day",
-        "total_tracks": 33,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "7fQ88SSyyx8MA5d7zY4o55",
-        "name": "Viaje a 1978",
-        "release_date": "2022-05-19",
-        "release_date_precision": "day",
-        "total_tracks": 42,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "5hSfgdEzfUS5OfFIf5ZamJ",
-        "name": "Free Barz Cypher",
-        "release_date": "2022-04-29",
-        "release_date_precision": "day",
-        "total_tracks": 1,
-        "album_type": "single",
-        "artists": [
-            {
-                "id": "2I11DoxoQHGXTuEjCY3rxB",
-                "name": "SkyManBeats031"
-            }
-        ]
-    },
-    {
-        "id": "0L755EcVUTd9zlLaT0oArU",
-        "name": "Class of '76",
-        "release_date": "2021-11-19",
-        "release_date_precision": "day",
-        "total_tracks": 18,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "19Yep6FGb8JTkM8xdYrWiB",
-        "name": "Rural",
-        "release_date": "2021-10-22",
-        "release_date_precision": "day",
-        "total_tracks": 4,
-        "album_type": "single",
-        "artists": [
-            {
-                "id": "3e31NRFZfLVDPw8vCg8jRZ",
-                "name": "JeyBerk"
-            }
-        ]
-    },
-    {
-        "id": "6pvDrvQT3fYym2EQQ3wGOk",
-        "name": "Soft Lp",
-        "release_date": "2021-10-01",
-        "release_date_precision": "day",
-        "total_tracks": 16,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "0SkEv5iDHSL4LVy5pGMTq9",
-                "name": "Zeff MC"
-            }
-        ]
-    },
-    {
-        "id": "4erC1Am7EMmIWUm4BJZohQ",
-        "name": "Pressure",
-        "release_date": "2021-09-12",
-        "release_date_precision": "day",
-        "total_tracks": 1,
-        "album_type": "single",
-        "artists": [
-            {
-                "id": "3e31NRFZfLVDPw8vCg8jRZ",
-                "name": "JeyBerk"
-            }
-        ]
-    },
-    {
-        "id": "5r0BcA68WS0r4xlEp5bbtN",
-        "name": "Viaje a 1975",
-        "release_date": "2021-05-13",
-        "release_date_precision": "day",
-        "total_tracks": 63,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "3QrafGRJQhE3w6E5AsKS5N",
-        "name": "Viaje a 1976",
-        "release_date": "2021-05-13",
-        "release_date_precision": "day",
-        "total_tracks": 51,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "6bUl76BAvz7BzfiveOeEmP",
-        "name": "PROGESSIVE ROCK",
-        "release_date": "2021-02-05",
-        "release_date_precision": "day",
-        "total_tracks": 56,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "7jnB76vFAb30AtnZBHgPKZ",
-        "name": "Aracnophobia",
-        "release_date": "2020-11-04",
-        "release_date_precision": "day",
-        "total_tracks": 10,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "2tNnccn1fXprDrsQi0da0M",
-                "name": "Toba"
-            }
-        ]
-    },
-    {
-        "id": "6zLsvEOUTlutEafrQZ9h5O",
-        "name": "S\u00e1lvese quien mueva (colaboraciones inestables)",
-        "release_date": "2020-08-05",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "1HWtZHckihikinXN4OQp1l",
-                "name": "Alopratos"
-            }
-        ]
-    },
-    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125143+00:00",
         "id": "7xL8E99WFvTnexO0poedDg",
         "name": "The Supreme Record Company",
         "release_date": "2020-06-05",
         "release_date_precision": "day",
         "total_tracks": 58,
+        "images": "https://i.scdn.co/image/ab67616d0000b273db98c70208a78042df24774e",
         "album_type": "compilation",
         "artists": [
             {
@@ -448,11 +487,14 @@
         ]
     },
     {
-        "id": "1oNI6vQCQvR9f2rr91reLn",
-        "name": "Old Grey Whistle Test: Easy Riders",
-        "release_date": "2018-11-09",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125161+00:00",
+        "id": "1pGIVzNESgLxd8h2gHu1yv",
+        "name": "Prog Rock For Rookies Vol.2",
+        "release_date": "2023-09-07",
         "release_date_precision": "day",
-        "total_tracks": 45,
+        "total_tracks": 36,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e2dc4890b17a4a4aa51751d9",
         "album_type": "compilation",
         "artists": [
             {
@@ -462,11 +504,14 @@
         ]
     },
     {
-        "id": "2UYQeEKhQeEXfmvfZpdkVe",
-        "name": "200",
-        "release_date": "2018-08-21",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125178+00:00",
+        "id": "3uoREHVW5zMrb1PWOdM7d5",
+        "name": "Prog Rock For Rookies",
+        "release_date": "2023-08-29",
         "release_date_precision": "day",
-        "total_tracks": 33,
+        "total_tracks": 36,
+        "images": "https://i.scdn.co/image/ab67616d0000b2732b77bb28108d8a083c51f12a",
         "album_type": "compilation",
         "artists": [
             {
@@ -476,53 +521,48 @@
         ]
     },
     {
-        "id": "1CAugqsgICmXdJUlIhxST6",
-        "name": "F\u00fcr Elyse",
-        "release_date": "2018-06-21",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125196+00:00",
+        "id": "0v6clAABaTyAZbnI8UxIkU",
+        "name": "Sounds Wild",
+        "release_date": null,
+        "release_date_precision": "year",
+        "total_tracks": 60,
+        "images": "https://i.scdn.co/image/ab67616d0000b273518c1696923006df0f9cf7d4",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                "name": "Various Artists"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125211+00:00",
+        "id": "15rJ2vtB6aSBWOkKMaeCVC",
+        "name": "Are You Experienced",
+        "release_date": "2006-08-04",
         "release_date_precision": "day",
-        "total_tracks": 9,
+        "total_tracks": 23,
+        "images": "https://i.scdn.co/image/ab67616d0000b27308469918b434a50b126cd080",
         "album_type": "album",
         "artists": [
             {
-                "id": "10XPTyY0JIDX06livaarjj",
-                "name": "Lustrumband Ceres"
+                "id": "0buEN7H6AlTsvWb4BPazoV",
+                "name": "Dubblestandart"
             }
         ]
     },
     {
-        "id": "7DbhucXKCHFWLZa5osDHq2",
-        "name": "Beyond the Sound 2",
-        "release_date": "2018-05-25",
-        "release_date_precision": "day",
-        "total_tracks": 22,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "6cm7pbMcKZi92u8ElG5yoU",
-        "name": "Las 50 Mejores Canciones De Los 70 Vol. 2",
-        "release_date": "2017-09-22",
-        "release_date_precision": "day",
-        "total_tracks": 50,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "04SBlCMNjx2vhmLAwjigf8",
-        "name": "Roadhouse Grooves",
-        "release_date": "2017-09-08",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125229+00:00",
+        "id": "6RxjAm0FDhPjEIaCCL5eCK",
+        "name": "Prog Rocks!: Volume 4",
+        "release_date": "2013-01-01",
         "release_date_precision": "day",
         "total_tracks": 25,
+        "images": "https://i.scdn.co/image/ab67616d0000b27373e2ec1cd6494fb528d6de85",
         "album_type": "compilation",
         "artists": [
             {
@@ -532,25 +572,31 @@
         ]
     },
     {
-        "id": "50LQ6zRtf4WTGPCzQNhkK7",
-        "name": "\"Gama de Grises\"",
-        "release_date": "2016-03-28",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125269+00:00",
+        "id": "2qn8eXYwXhQeKg08nHrBed",
+        "name": "Nikulipe Nini?",
+        "release_date": "2026-05-08",
         "release_date_precision": "day",
-        "total_tracks": 15,
-        "album_type": "album",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b6cdaf7abc8dc423b2342ed7",
+        "album_type": "single",
         "artists": [
             {
-                "id": "7rspBdHvrifT01pqxuX0Ru",
-                "name": "Xuso Salitas"
+                "id": "0tQi90hac5WjPvBg855uOt",
+                "name": "Etunez"
             }
         ]
     },
     {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125308+00:00",
         "id": "6CqcRceTetd6EHdKWFFcGl",
         "name": "Urban Night Out 3",
         "release_date": "2014-02-20",
         "release_date_precision": "day",
         "total_tracks": 24,
+        "images": "https://i.scdn.co/image/ab67616d0000b27307dd28668613061a9828d6f2",
         "album_type": "compilation",
         "artists": [
             {
@@ -560,11 +606,14 @@
         ]
     },
     {
-        "id": "2ceHsXkBhgMLCjIrp6WKMk",
-        "name": "Korean Golden POPs #1",
-        "release_date": "2014-01-01",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125332+00:00",
+        "id": "7aKl3lNioOPFMYBQBUWPSH",
+        "name": "Love Hits for Babies",
+        "release_date": "2025-12-26",
         "release_date_precision": "day",
-        "total_tracks": 51,
+        "total_tracks": 31,
+        "images": "https://i.scdn.co/image/ab67616d0000b273f241133c9d8b8ee393288474",
         "album_type": "compilation",
         "artists": [
             {
@@ -574,53 +623,31 @@
         ]
     },
     {
-        "id": "4WFU2g6MJ6lcGnk78RmAi4",
-        "name": "Smash the Parade",
-        "release_date": "2013-11-12",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125355+00:00",
+        "id": "0fhz2TgFbtbRB7JefOicbA",
+        "name": "BossRiddim",
+        "release_date": null,
+        "release_date_precision": "year",
+        "total_tracks": 6,
+        "images": "https://i.scdn.co/image/ab67616d0000b273a6a4e89bb30606d6178061cf",
+        "album_type": "single",
         "artists": [
             {
-                "id": "2uPLrf6Eg6PENCm0l1uSg7",
-                "name": "Illskillz"
+                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                "name": "Various Artists"
             }
         ]
     },
     {
-        "id": "6VCRK5GjJzlcyGY6JMnCTF",
-        "name": "Smash The Parade",
-        "release_date": "2013-10-29",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "2uPLrf6Eg6PENCm0l1uSg7",
-                "name": "Illskillz"
-            }
-        ]
-    },
-    {
-        "id": "7AyZ7UBl06PFXnS8xf9RWP",
-        "name": "Smash The Parade",
-        "release_date": "2013-10-29",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "2uPLrf6Eg6PENCm0l1uSg7",
-                "name": "Illskillz"
-            }
-        ]
-    },
-    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125372+00:00",
         "id": "2GW85B6zmyfSdBu6GChx0R",
         "name": "Apocalypse EP",
         "release_date": "2013-08-05",
         "release_date_precision": "day",
         "total_tracks": 4,
+        "images": "https://i.scdn.co/image/ab67616d0000b2734da89d5358181f02e8b2fe4f",
         "album_type": "single",
         "artists": [
             {
@@ -630,11 +657,14 @@
         ]
     },
     {
-        "id": "6RxjAm0FDhPjEIaCCL5eCK",
-        "name": "Prog Rocks!: Volume 4",
-        "release_date": "2013-01-01",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125390+00:00",
+        "id": "7DbhucXKCHFWLZa5osDHq2",
+        "name": "Beyond the Sound 2",
+        "release_date": "2018-05-25",
         "release_date_precision": "day",
-        "total_tracks": 25,
+        "total_tracks": 22,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e90c22e4048bf476c361997f",
         "album_type": "compilation",
         "artists": [
             {
@@ -644,67 +674,14 @@
         ]
     },
     {
-        "id": "46lwy99LsDyubeZU2KK5kB",
-        "name": "Solid Sounds 2011/1",
-        "release_date": "2011-02-28",
-        "release_date_precision": "day",
-        "total_tracks": 31,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "2nIV08zETh3Ur520Hd9dUI",
-        "name": "VA / Remember 1984",
-        "release_date": "2011-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 17,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "0v6clAABaTyAZbnI8UxIkU",
-        "name": "Sounds Wild",
-        "release_date": "2010-10-10",
-        "release_date_precision": "day",
-        "total_tracks": 60,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "0Ld6clrdIP90X5xnAZakdk",
-        "name": "Wondrous Stories: A Complete Introduction To Progressive Rock",
-        "release_date": "2010-07-05",
-        "release_date_precision": "day",
-        "total_tracks": 51,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125407+00:00",
         "id": "3bbmATBrtCw1HSLUItj64X",
         "name": "Habibi (Remixes Pt.1)",
         "release_date": "2010-04-19",
         "release_date_precision": "day",
         "total_tracks": 4,
+        "images": "https://i.scdn.co/image/ab67616d0000b2735931d5e2eeed9e80a697b1f9",
         "album_type": "single",
         "artists": [
             {
@@ -718,25 +695,167 @@
         ]
     },
     {
-        "id": "0dfFqwYY4SmWeaCLPqkFeB",
-        "name": "Jabajaws Remixed",
-        "release_date": "2010-03-07",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125425+00:00",
+        "id": "1D6y0PVF99f31aOyIzE7qo",
+        "name": "Smash The Parade",
+        "release_date": "2013-10-29",
         "release_date_precision": "day",
-        "total_tracks": 10,
-        "album_type": "single",
+        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b27315ef5ba23cfa3368b84505ea",
+        "album_type": "album",
         "artists": [
             {
-                "id": "5bBJexNFIf29qKFsBXHTLk",
-                "name": "Sekta"
+                "id": "2uPLrf6Eg6PENCm0l1uSg7",
+                "name": "Illskillz"
             }
         ]
     },
     {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125442+00:00",
+        "id": "22NxwXIQ2Fpv7M4CzV3JFT",
+        "name": "Drew Carrington",
+        "release_date": "2025-01-31",
+        "release_date_precision": "day",
+        "total_tracks": 5,
+        "images": "https://i.scdn.co/image/ab67616d0000b273a53a8b9a9ceacf56c77a7aa6",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3e31NRFZfLVDPw8vCg8jRZ",
+                "name": "JeyBerk"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125458+00:00",
+        "id": "6zLsvEOUTlutEafrQZ9h5O",
+        "name": "S\u00e1lvese quien mueva (colaboraciones inestables)",
+        "release_date": "2020-08-05",
+        "release_date_precision": "day",
+        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e80921d13c701251126cdda9",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "1HWtZHckihikinXN4OQp1l",
+                "name": "Alopratos"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125474+00:00",
+        "id": "6TPXmcBGx6VavwLDhGNKP4",
+        "name": "Raven",
+        "release_date": "2024-04-19",
+        "release_date_precision": "day",
+        "total_tracks": 3,
+        "images": "https://i.scdn.co/image/ab67616d0000b273f6c803aa7c9bdbdd1bb45d95",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3e31NRFZfLVDPw8vCg8jRZ",
+                "name": "JeyBerk"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125490+00:00",
+        "id": "6pvDrvQT3fYym2EQQ3wGOk",
+        "name": "Soft Lp",
+        "release_date": "2021-10-01",
+        "release_date_precision": "day",
+        "total_tracks": 16,
+        "images": "https://i.scdn.co/image/ab67616d0000b2733280af01df164c9784492924",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "0SkEv5iDHSL4LVy5pGMTq9",
+                "name": "Zeff MC"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125507+00:00",
+        "id": "2QofW5dq3VsM4dhcdmxAzj",
+        "name": "Willpower",
+        "release_date": "2025-08-29",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b2734af770329914ec1ef06c0859",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3e31NRFZfLVDPw8vCg8jRZ",
+                "name": "JeyBerk"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125522+00:00",
+        "id": "4erC1Am7EMmIWUm4BJZohQ",
+        "name": "Pressure",
+        "release_date": "2021-09-12",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b273652384e2318dc8a56a0cbcca",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3e31NRFZfLVDPw8vCg8jRZ",
+                "name": "JeyBerk"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125539+00:00",
+        "id": "7jnB76vFAb30AtnZBHgPKZ",
+        "name": "Aracnophobia",
+        "release_date": "2020-11-04",
+        "release_date_precision": "day",
+        "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b0c35ee0fd74e49e5753f0fa",
+        "album_type": "album",
+        "artists": [
+            {
+                "id": "2tNnccn1fXprDrsQi0da0M",
+                "name": "Toba"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125554+00:00",
+        "id": "3xWcSrrlMufdjsjUmQMIZs",
+        "name": "OG",
+        "release_date": "2023-08-24",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b273af50f5a315bd176769979214",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "0hm2dNNxfvBIGUjNME0uag",
+                "name": "BubenKing"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125570+00:00",
         "id": "2H7L08gpS4ItJZrDmMNmqe",
         "name": "Who Knows",
         "release_date": "2009-12-14",
         "release_date_precision": "day",
         "total_tracks": 2,
+        "images": "https://i.scdn.co/image/ab67616d0000b27322027da4d1b3217a43786487",
         "album_type": "single",
         "artists": [
             {
@@ -746,44 +865,36 @@
         ]
     },
     {
-        "id": "15rJ2vtB6aSBWOkKMaeCVC",
-        "name": "Are You Experienced",
-        "release_date": "2006-08-04",
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.125600+00:00",
+        "id": "19Yep6FGb8JTkM8xdYrWiB",
+        "name": "Rural",
+        "release_date": "2021-10-22",
         "release_date_precision": "day",
-        "total_tracks": 23,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "0buEN7H6AlTsvWb4BPazoV",
-                "name": "Dubblestandart"
-            }
-        ]
-    },
-    {
-        "id": "7rVmN6Ts1yg6JPtfSV3Z2r",
-        "name": "Legend Of A Mind - The Underground Anthology",
-        "release_date": "2002-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 40,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "0fhz2TgFbtbRB7JefOicbA",
-        "name": "BossRiddim",
-        "release_date": null,
-        "release_date_precision": "year",
-        "total_tracks": 6,
+        "total_tracks": 4,
+        "images": "https://i.scdn.co/image/ab67616d0000b2734f43314123fa5d427501b22e",
         "album_type": "single",
         "artists": [
             {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
+                "id": "3e31NRFZfLVDPw8vCg8jRZ",
+                "name": "JeyBerk"
+            }
+        ]
+    },
+    {
+        "_progarchives_album_id": null,
+        "_updated_at": "2026-07-19T13:24:18.325836+00:00",
+        "id": "0dfFqwYY4SmWeaCLPqkFeB",
+        "name": "Jabajaws Remixed",
+        "release_date": "2010-03-07",
+        "release_date_precision": "day",
+        "total_tracks": 10,
+        "images": "https://i.scdn.co/image/ab67616d0000b2737c239a908eb64c2669d358ed",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "5bBJexNFIf29qKFsBXHTLk",
+                "name": "Sekta"
             }
         ]
     }

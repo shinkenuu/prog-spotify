@@ -1,20 +1,425 @@
 {
     "name": "CAMEL",
     "albums": [
-        "CAMEL",
-        "MIRAGE",
-        "THE SNOW GOOSE",
-        "MOONMADNESS",
-        "RAIN DANCES",
-        "BREATHLESS",
-        "I CAN SEE YOUR HOUSE FROM HERE",
-        "NUDE",
-        "THE SINGLE FACTOR",
-        "STATIONARY TRAVELLER",
-        "DUST AND DREAMS",
-        "HARBOUR OF TEARS",
-        "RAJAZ",
-        "A NOD AND A WINK",
-        "THE SNOW GOOSE (RE-RECORDING)"
+        {
+            "id": 53501,
+            "name": "ICHIGO ICHIE - LIVE IN JAPAN 2016",
+            "release_year": 2017,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 345,
+            "name": "COMING OF AGE",
+            "release_year": 1998,
+            "record_mode": "Live"
+        },
+        {
+            "id": 6944,
+            "name": "FOOTAGE",
+            "release_year": 2004,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 348,
+            "name": "THE PARIS COLLECTION",
+            "release_year": 2001,
+            "record_mode": "Live"
+        },
+        {
+            "id": 7958,
+            "name": "PRESSURE POINTS - LIVE IN CONCERT",
+            "release_year": 1984,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 30357,
+            "name": "THE OPENING FAREWELL - LIVE AT THE CATALYST",
+            "release_year": 2010,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 44918,
+            "name": "IN FROM THE COLD",
+            "release_year": 2014,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 63343,
+            "name": "LIVE AT THE ROYAL ALBERT HALL",
+            "release_year": 2019,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 342,
+            "name": "ECHOES",
+            "release_year": 1993,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 12030,
+            "name": "LUNAR SEA - AN ANTHOLOGY 1973-1985",
+            "release_year": 2001,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 46855,
+            "name": "FLIGHT OF THE SNOW GOOSE",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46869,
+            "name": "LONG GOODBYES",
+            "release_year": 1984,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 334,
+            "name": "BREATHLESS",
+            "release_year": 1978,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 333,
+            "name": "A LIVE RECORD",
+            "release_year": 1978,
+            "record_mode": "Live"
+        },
+        {
+            "id": 338,
+            "name": "PRESSURE POINTS",
+            "release_year": 1984,
+            "record_mode": "Live"
+        },
+        {
+            "id": 326,
+            "name": "CAMEL ON THE ROAD 1972",
+            "release_year": 1992,
+            "record_mode": "Live"
+        },
+        {
+            "id": 1907,
+            "name": "A NOD AND A WINK",
+            "release_year": 2002,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 346,
+            "name": "CAMEL ON THE ROAD 1981",
+            "release_year": 1997,
+            "record_mode": "Live"
+        },
+        {
+            "id": 349,
+            "name": "CAMEL 73 - 75 GODS OF LIGHT",
+            "release_year": 2000,
+            "record_mode": "Live"
+        },
+        {
+            "id": 9374,
+            "name": "FOOTAGE II",
+            "release_year": 2005,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 17281,
+            "name": "MOONDANCES",
+            "release_year": 2007,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 14231,
+            "name": "TOTAL PRESSURE - LIVE IN CONCERT 1984",
+            "release_year": 2007,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 2631,
+            "name": "CHAMELEON (BEST OF CAMEL)",
+            "release_year": 1981,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 2633,
+            "name": "A COMPACT COMPILATION",
+            "release_year": 1985,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 2634,
+            "name": "LANDSCAPES",
+            "release_year": 1991,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 2635,
+            "name": "CAMEL (25TH ANNIVERSARY COMPILATION) ",
+            "release_year": 1997,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 38320,
+            "name": "NEVER LET GO",
+            "release_year": 1973,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 38700,
+            "name": "HIGHWAYS OF THE SUN",
+            "release_year": 1977,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46868,
+            "name": "CLOAK AND DAGGER MAN",
+            "release_year": 1984,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 341,
+            "name": "NEVER LET GO",
+            "release_year": 1993,
+            "record_mode": "Live"
+        },
+        {
+            "id": 344,
+            "name": "HARBOUR OF TEARS",
+            "release_year": 1996,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 32173,
+            "name": "NEVER LET GO",
+            "release_year": 2002,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 347,
+            "name": "RAJAZ",
+            "release_year": 1999,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 336,
+            "name": "NUDE",
+            "release_year": 1981,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 9972,
+            "name": "COMING OF AGE (DVD)",
+            "release_year": 1998,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 337,
+            "name": "THE SINGLE FACTOR",
+            "release_year": 1982,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 57406,
+            "name": "SUPERTWISTER - BEST",
+            "release_year": 2006,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 328,
+            "name": "MIRAGE",
+            "release_year": 1974,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 327,
+            "name": "CAMEL",
+            "release_year": 1973,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 66933,
+            "name": "CAMEL AT THE ROYAL ALBERT HALL",
+            "release_year": 2020,
+            "record_mode": "Live"
+        },
+        {
+            "id": 47578,
+            "name": "BERLIN OCCIDENTAL (WEST BERLIN)",
+            "release_year": 1984,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47579,
+            "name": "LIES (PROMO SINGLE)",
+            "release_year": 1984,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46870,
+            "name": "CAPTURED",
+            "release_year": 1986,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46867,
+            "name": "SELVA",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46859,
+            "name": "NO EASY ANSWER",
+            "release_year": 1982,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46858,
+            "name": "LIES",
+            "release_year": 1981,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47577,
+            "name": "REMOTE ROMANCE (GERMAN VERSION)",
+            "release_year": 1979,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46856,
+            "name": "BREATHLESS",
+            "release_year": 1978,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 48551,
+            "name": "SOME EXERPTS FROM THE NEW CAMEL ALBUM",
+            "release_year": 1979,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 43652,
+            "name": "THE SNOW GOOSE (RE-RECORDING)",
+            "release_year": 2013,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 329,
+            "name": "THE SNOW GOOSE",
+            "release_year": 1975,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 330,
+            "name": "MOONMADNESS",
+            "release_year": 1976,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 331,
+            "name": "RAIN DANCES",
+            "release_year": 1977,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 335,
+            "name": "I CAN SEE YOUR HOUSE FROM HERE",
+            "release_year": 1979,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 339,
+            "name": "STATIONARY TRAVELLER",
+            "release_year": 1984,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 340,
+            "name": "DUST AND DREAMS",
+            "release_year": 1991,
+            "record_mode": "Studio Album"
+        },
+        {
+            "id": 343,
+            "name": "CAMEL ON THE ROAD 1982",
+            "release_year": 1994,
+            "record_mode": "Live"
+        },
+        {
+            "id": 84964,
+            "name": "KOSEI NENKIN HALL, TOKYO, JANUARY 27, 1980",
+            "release_year": 2019,
+            "record_mode": "Live"
+        },
+        {
+            "id": 85125,
+            "name": "THE LIVE RECORDINGS 1974-1977",
+            "release_year": 2023,
+            "record_mode": "Live"
+        },
+        {
+            "id": 93445,
+            "name": "EARTHRISE - LIVE AT THE MARQUEE 1974'",
+            "release_year": 2026,
+            "record_mode": "Live"
+        },
+        {
+            "id": 13282,
+            "name": "CURRICULUM VITAE",
+            "release_year": 2003,
+            "record_mode": "DVD\/Video"
+        },
+        {
+            "id": 2632,
+            "name": "THE COLLECTION",
+            "release_year": 1985,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 31764,
+            "name": "RAINBOW'S END - A CAMEL ANTHOLOGY 1973 - 1985",
+            "release_year": 2010,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 80689,
+            "name": "AIR BORN: THE MCA & DECCA YEARS 1973-1984",
+            "release_year": 2023,
+            "record_mode": "Boxset\/Compilation"
+        },
+        {
+            "id": 46854,
+            "name": "THE SNOW GOOSE",
+            "release_year": 1975,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 38321,
+            "name": "ANOTHER NIGHT",
+            "release_year": 1976,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 46857,
+            "name": "YOUR LOVE IS STRANGER THAN MINE",
+            "release_year": 1979,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 47576,
+            "name": "REMOTE ROMANCE",
+            "release_year": 1979,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 48552,
+            "name": "CAMEL IN CONCERT NO.250",
+            "release_year": 1981,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        },
+        {
+            "id": 82051,
+            "name": "NEWCASTLE",
+            "release_year": 2023,
+            "record_mode": "Singles\/EPs\/Fan Club\/Promo"
+        }
     ]
 }

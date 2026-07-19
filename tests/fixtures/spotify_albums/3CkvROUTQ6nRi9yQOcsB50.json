@@ -1,24 +1,11 @@
 [
     {
-        "id": "2VMk6eFV1MafApI6Txke5H",
-        "name": "The Last Domino?",
-        "release_date": "2021-11-19",
+        "id": "7C0IAJ3u8KenVJHKFGeZ85",
+        "name": "The Lamb Lies Down On Broadway (50th Anniversary Deluxe Edition)",
+        "release_date": "2025-10-06",
         "release_date_precision": "day",
-        "total_tracks": 27,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "6dJ2lQwZMAFRb1NlUZsdZs",
-        "name": "The Last Domino",
-        "release_date": "2021-09-17",
-        "release_date_precision": "day",
-        "total_tracks": 27,
+        "total_tracks": 48,
+        "images": "https://i.scdn.co/image/ab67616d0000b273d76b4c1b5a33f726f7f241bb",
         "album_type": "album",
         "artists": [
             {
@@ -33,20 +20,7 @@
         "release_date": "2007-11-20",
         "release_date_precision": "day",
         "total_tracks": 21,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "6DviLZLFXtlqsNysPchTuU",
-        "name": "Live Over Europe 2007",
-        "release_date": "2007-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 21,
+        "images": "https://i.scdn.co/image/ab67616d0000b27383566d45618ae139f6d5b360",
         "album_type": "album",
         "artists": [
             {
@@ -57,24 +31,11 @@
     },
     {
         "id": "2sJEOd3e3IFy5kmPPUdHge",
-        "name": "Calling All Stations",
+        "name": "Calling All Stations (2007 Remaster)",
         "release_date": "1997-09-01",
         "release_date_precision": "day",
         "total_tracks": 11,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2XRy88bXI7Nd7ObnLXzoJD",
-        "name": "Calling All Stations",
-        "release_date": "1997-09-01",
-        "release_date_precision": "day",
-        "total_tracks": 11,
+        "images": "https://i.scdn.co/image/ab67616d0000b27312d1265169c4c831cb3bac0a",
         "album_type": "album",
         "artists": [
             {
@@ -85,24 +46,11 @@
     },
     {
         "id": "2Khy2ibPothF9h62okhICI",
-        "name": "Live - The Way We Walk, Volume Two: The Longs",
+        "name": "The Way We Walk, Vol. 2: The Longs (Live)",
         "release_date": "1993-01-11",
         "release_date_precision": "day",
         "total_tracks": 6,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2UNDrzwy92CNlEOoPlK2XA",
-        "name": "Live - The Way We Walk Volume Two: 'The Longs'",
-        "release_date": "1993-01-11",
-        "release_date_precision": "day",
-        "total_tracks": 6,
+        "images": "https://i.scdn.co/image/ab67616d0000b27399a196101852365470e0f5f3",
         "album_type": "album",
         "artists": [
             {
@@ -113,24 +61,11 @@
     },
     {
         "id": "25tGlHylelmscMQjEqFn5F",
-        "name": "Live - The Way We Walk, Volume One: The Shorts",
+        "name": "The Way We Walk, Vol. 1: The Shorts (Live)",
         "release_date": "1992-11-16",
         "release_date_precision": "day",
         "total_tracks": 11,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "6Tkk508dGDixd9my3RFQNr",
-        "name": "Live - The Way We Walk Volume One: 'The Shorts'",
-        "release_date": "1992-11-16",
-        "release_date_precision": "day",
-        "total_tracks": 11,
+        "images": "https://i.scdn.co/image/ab67616d0000b2737f63092692060790d18c2ee2",
         "album_type": "album",
         "artists": [
             {
@@ -141,80 +76,11 @@
     },
     {
         "id": "1lCuwXVtx72gZN0iT20TmO",
-        "name": "We Can't Dance",
+        "name": "We Can't Dance (2007 Remaster)",
         "release_date": "1991-11-11",
         "release_date_precision": "day",
         "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2WFkJi4USarY1qe3yjifjG",
-        "name": "We Can't Dance",
-        "release_date": "1991-11-11",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "4KVOF9jhVFdzyrp3e1XeDN",
-        "name": "We Can't Dance",
-        "release_date": "1991-11-11",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "4Oao6gCD44a9vSruFH7F33",
-        "name": "According to Phil Collins",
-        "release_date": "1988-07-25",
-        "release_date_precision": "day",
-        "total_tracks": 16,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "7jYfZ6i2taKDkiuxncR8P1",
-        "name": "Invisible Touch",
-        "release_date": "1986-06-11",
-        "release_date_precision": "day",
-        "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "5BDGtXKMQ6k267KX4PoGhP",
-        "name": "Invisible Touch",
-        "release_date": "1986-06-09",
-        "release_date_precision": "day",
-        "total_tracks": 8,
+        "images": "https://i.scdn.co/image/ab67616d0000b273715989800acd29a992275c31",
         "album_type": "album",
         "artists": [
             {
@@ -225,38 +91,11 @@
     },
     {
         "id": "632b0oXuFpstA4DO2cUKdG",
-        "name": "Invisible Touch",
+        "name": "Invisible Touch (2007 Remaster)",
         "release_date": "1986-06-09",
         "release_date_precision": "day",
         "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "7zfol5hPtxCEDN1LVk7fy2",
-        "name": "Genesis",
-        "release_date": "1983-10-04",
-        "release_date_precision": "day",
-        "total_tracks": 9,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2u0T1xzCoI7ANxWDEj9yl6",
-        "name": "Genesis",
-        "release_date": "1983-10-03",
-        "release_date_precision": "day",
-        "total_tracks": 9,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b917174eb6069392e8a3cc7f",
         "album_type": "album",
         "artists": [
             {
@@ -267,10 +106,11 @@
     },
     {
         "id": "6BX8AS7J97PSQNrteX325Z",
-        "name": "Genesis",
+        "name": "Genesis (2007 Remaster)",
         "release_date": "1983-10-03",
         "release_date_precision": "day",
         "total_tracks": 9,
+        "images": "https://i.scdn.co/image/ab67616d0000b273945c366eda66495226e4a46d",
         "album_type": "album",
         "artists": [
             {
@@ -281,38 +121,11 @@
     },
     {
         "id": "5hvmL4yhRrws8Tpn9NoZpt",
-        "name": "Three Sides Live",
+        "name": "Three Sides Live (1994 Remaster)",
         "release_date": "1982-06-01",
         "release_date_precision": "day",
         "total_tracks": 13,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "5uVkLh6vxNHy4zkK6mPSb7",
-        "name": "Three Sides Live",
-        "release_date": "1982-06-01",
-        "release_date_precision": "day",
-        "total_tracks": 13,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "1meDXzOLASv06BT60e9yYD",
-        "name": "Abacab",
-        "release_date": "1981-09-18",
-        "release_date_precision": "day",
-        "total_tracks": 9,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b440410a8a2c51d69516f71d",
         "album_type": "album",
         "artists": [
             {
@@ -327,20 +140,7 @@
         "release_date": "1981-09-18",
         "release_date_precision": "day",
         "total_tracks": 9,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "1FFpEn1rjlucjU5L5JXggy",
-        "name": "Duke",
-        "release_date": "1980-03-28",
-        "release_date_precision": "day",
-        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b2736deb4dcdeef72546eb4384d6",
         "album_type": "album",
         "artists": [
             {
@@ -355,34 +155,7 @@
         "release_date": "1980-03-28",
         "release_date_precision": "day",
         "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "7ryVZ5ca6GM3FAkmlrymgv",
-        "name": "Duke",
-        "release_date": "1980-03-28",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "0lTuVJuCbD3FHEjIeQqyXg",
-        "name": "And Then There Were Three",
-        "release_date": "1978-04-07",
-        "release_date_precision": "day",
-        "total_tracks": 11,
+        "images": "https://i.scdn.co/image/ab67616d0000b273f4fe0d5d8748cd457dcced27",
         "album_type": "album",
         "artists": [
             {
@@ -397,6 +170,7 @@
         "release_date": "1978-04-07",
         "release_date_precision": "day",
         "total_tracks": 11,
+        "images": "https://i.scdn.co/image/ab67616d0000b273d9c20a78df6b65574835c4c0",
         "album_type": "album",
         "artists": [
             {
@@ -407,10 +181,11 @@
     },
     {
         "id": "0qikCznnzu8NIzTP5YGFt0",
-        "name": "Seconds Out",
+        "name": "Seconds Out (Live)",
         "release_date": "1977-10-21",
         "release_date_precision": "day",
         "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b2735908ad420ba0dd5c0da7742c",
         "album_type": "album",
         "artists": [
             {
@@ -420,39 +195,12 @@
         ]
     },
     {
-        "id": "71E1GUha9EeC0VjAtBokM0",
-        "name": "Seconds Out",
-        "release_date": "1977-10-21",
-        "release_date_precision": "day",
-        "total_tracks": 12,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "4gRwe7MFlmZ08i5N5kwJ2C",
-        "name": "Wind & Wuthering",
+        "id": "0vHZsCgm66uovdpjzqnqGe",
+        "name": "Wind & Wuthering (2007 Remaster)",
         "release_date": "1976-12-27",
         "release_date_precision": "day",
         "total_tracks": 9,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "4CgleVVe43iVPsmWh7Mydo",
-        "name": "Wind And Wuthering",
-        "release_date": "1976-12-27",
-        "release_date_precision": "day",
-        "total_tracks": 9,
+        "images": "https://i.scdn.co/image/ab67616d0000b273a790a3e607b9ad89b11b9bbc",
         "album_type": "album",
         "artists": [
             {
@@ -467,34 +215,7 @@
         "release_date": "1976-02-02",
         "release_date_precision": "day",
         "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "5ZhcTdSKircYOKjpX3ycED",
-        "name": "A Trick of the Tail",
-        "release_date": "1976-02-02",
-        "release_date_precision": "day",
-        "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "6gzQHMfNleYdrw5PDkLxBv",
-        "name": "A Trick Of The Tail",
-        "release_date": "1976-02-02",
-        "release_date_precision": "day",
-        "total_tracks": 8,
+        "images": "https://i.scdn.co/image/ab67616d0000b27358dccdc06dafe0d0dc170283",
         "album_type": "album",
         "artists": [
             {
@@ -509,20 +230,7 @@
         "release_date": "1974-11-18",
         "release_date_precision": "day",
         "total_tracks": 23,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "6kuKRIu6YGYxQLwasTL3Gx",
-        "name": "The Lamb Lies Down On Broadway (Remastered 2008)",
-        "release_date": "1974-11-18",
-        "release_date_precision": "day",
-        "total_tracks": 23,
+        "images": "https://i.scdn.co/image/ab67616d0000b27302cb21292aeb764d270b85c0",
         "album_type": "album",
         "artists": [
             {
@@ -533,52 +241,11 @@
     },
     {
         "id": "1rZGSWC3pMmejDwYG0ZXma",
-        "name": "Selling England by the Pound",
+        "name": "Selling England by the Pound (2007 Stereo Mix)",
         "release_date": "1973-10-12",
         "release_date_precision": "day",
         "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2tSRe2rkdJvZWMOIZpu6lk",
-        "name": "Selling England By The Pound",
-        "release_date": "1973-10-12",
-        "release_date_precision": "day",
-        "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "7xaM3ah9ZO4BjrcFj5vOZe",
-        "name": "Selling England by the Pound",
-        "release_date": "1973-10-12",
-        "release_date_precision": "day",
-        "total_tracks": 8,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "0OJK0Hst2fUzpRj5Dy1yxQ",
-        "name": "Live",
-        "release_date": "1973-07-20",
-        "release_date_precision": "day",
-        "total_tracks": 5,
+        "images": "https://i.scdn.co/image/ab67616d0000b2731b4e7e89ede1a1c06078ff62",
         "album_type": "album",
         "artists": [
             {
@@ -593,20 +260,7 @@
         "release_date": "1973-07-20",
         "release_date_precision": "day",
         "total_tracks": 5,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "1P9AuGH530Oy9JEW5XVuxo",
-        "name": "Foxtrot",
-        "release_date": "1972-10-06",
-        "release_date_precision": "day",
-        "total_tracks": 6,
+        "images": "https://i.scdn.co/image/ab67616d0000b273bcd1ed7da9ef9396dd071307",
         "album_type": "album",
         "artists": [
             {
@@ -617,24 +271,11 @@
     },
     {
         "id": "3y67YB3vSbaopIg1VoAO1n",
-        "name": "Foxtrot",
+        "name": "Foxtrot (2007 Stereo Mix)",
         "release_date": "1972-10-06",
         "release_date_precision": "day",
         "total_tracks": 6,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "1ixuwlmJ9AOYGZCc2WrLwo",
-        "name": "Nursery Cryme",
-        "release_date": "1971-11-12",
-        "release_date_precision": "day",
-        "total_tracks": 7,
+        "images": "https://i.scdn.co/image/ab67616d0000b27369337b6f76bd7943acdcd192",
         "album_type": "album",
         "artists": [
             {
@@ -645,10 +286,11 @@
     },
     {
         "id": "1FcTAH4sBWvtdO55OffwCQ",
-        "name": "Nursery Cryme",
+        "name": "Nursery Cryme (2007 Stereo Mix)",
         "release_date": "1971-11-12",
         "release_date_precision": "day",
         "total_tracks": 7,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b33e0bfac977a389d5db7dc6",
         "album_type": "album",
         "artists": [
             {
@@ -658,53 +300,12 @@
         ]
     },
     {
-        "id": "6hCrozhHxZ2kKQwc1qTPIB",
-        "name": "Nursery Cryme",
-        "release_date": "1971-11-12",
-        "release_date_precision": "day",
-        "total_tracks": 7,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "0mKr6PDMuhTEWatlw5a4hl",
-        "name": "Trespass",
+        "id": "54vJN26PEqiIZIXNXmplbi",
+        "name": "Trespass (2007 Stereo Mix)",
         "release_date": "1970-10-23",
         "release_date_precision": "day",
         "total_tracks": 6,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "17hKeFpIov0cxAFQbGegEy",
-        "name": "Trespass",
-        "release_date": "1970-10-23",
-        "release_date_precision": "day",
-        "total_tracks": 6,
-        "album_type": "album",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2AySEK37nmU3z5TBusxI4B",
-        "name": "Trespass",
-        "release_date": null,
-        "release_date_precision": "year",
-        "total_tracks": 6,
+        "images": "https://i.scdn.co/image/ab67616d0000b2738f0c4accc42fd19e38bf0236",
         "album_type": "album",
         "artists": [
             {
@@ -719,6 +320,7 @@
         "release_date": "1969-03-17",
         "release_date_precision": "day",
         "total_tracks": 21,
+        "images": "https://i.scdn.co/image/ab67616d0000b27375f336395c315aff2e9cc447",
         "album_type": "album",
         "artists": [
             {
@@ -728,12 +330,13 @@
         ]
     },
     {
-        "id": "6jaxMUyJROt2eJvMQLzYP8",
-        "name": "The Original Album",
-        "release_date": "1969-03-08",
+        "id": "7fZph7kqMaWI0P9iU0zanP",
+        "name": "Watcher of the Skies (Live at the Shrine Auditorium, Los Angeles, CA, 1/24/75) [2025 Remaster]",
+        "release_date": "2025-09-19",
         "release_date_precision": "day",
-        "total_tracks": 17,
-        "album_type": "album",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b273162829f1055cde833ac158b4",
+        "album_type": "single",
         "artists": [
             {
                 "id": "3CkvROUTQ6nRi9yQOcsB50",
@@ -742,11 +345,87 @@
         ]
     },
     {
-        "id": "4mcqQZAFqTy4T27zkLqYKC",
+        "id": "4LdZSJk5ysYczR96YlIxt6",
+        "name": "Fly on a Windshield (2025 Remaster)",
+        "release_date": "2025-08-15",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b27306eb5e53cae1a3ef0ef9ec0f",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "1Xap9g6VsMT6AMljLprV4Q",
+        "name": "In the Cage (2025 Remaster)",
+        "release_date": "2025-07-18",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b273c0e8e5d0e7a2a6593144d8b6",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "3ZHm219FZshy7ka6b61GHs",
+        "name": "The Carpet Crawlers (Live at the Shrine Auditorium, Los Angeles, CA, 1/24/75) [2025 Remaster]",
+        "release_date": "2025-04-16",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b2739e9d46070b1f9948c09c3cd7",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "6fKbJhBuy6DyvLHSMDymE5",
+        "name": "Back in N.Y.C. (2025 Remaster)",
+        "release_date": "2025-03-14",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b27392337d340505702732c1d8ef",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "6ClfsENao67eO7KAD1Pn2a",
+        "name": "The Lamb Lies Down on Broadway (2025 Remaster)",
+        "release_date": "2025-02-21",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "images": "https://i.scdn.co/image/ab67616d0000b2733951aa95a754ccfc2e7c1939",
+        "album_type": "single",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "2DvSW4b8RD7hLJLz4Bull3",
         "name": "Congo",
-        "release_date": "1997-01-01",
+        "release_date": "1997-09-15",
         "release_date_precision": "day",
         "total_tracks": 3,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e3f32507fe47a3182d98fbad",
         "album_type": "single",
         "artists": [
             {
@@ -761,6 +440,7 @@
         "release_date": null,
         "release_date_precision": "year",
         "total_tracks": 2,
+        "images": "https://i.scdn.co/image/ab67616d0000b2732beeedd4beca1e4122e6d669",
         "album_type": "single",
         "artists": [
             {
@@ -775,6 +455,7 @@
         "release_date": null,
         "release_date_precision": "year",
         "total_tracks": 2,
+        "images": "https://i.scdn.co/image/ab67616d0000b273f6ab69b81deee86ce2f7035f",
         "album_type": "single",
         "artists": [
             {
@@ -789,6 +470,7 @@
         "release_date": null,
         "release_date_precision": "year",
         "total_tracks": 2,
+        "images": "https://i.scdn.co/image/ab67616d0000b273ed973ab6412b4ca8727d21e9",
         "album_type": "single",
         "artists": [
             {
@@ -803,6 +485,7 @@
         "release_date": null,
         "release_date_precision": "year",
         "total_tracks": 2,
+        "images": "https://i.scdn.co/image/ab67616d0000b273941aa664f0b62db0e8d98a98",
         "album_type": "single",
         "artists": [
             {
@@ -817,6 +500,7 @@
         "release_date": null,
         "release_date_precision": "year",
         "total_tracks": 2,
+        "images": "https://i.scdn.co/image/ab67616d0000b273fbabae2c4648ed4c88be5d69",
         "album_type": "single",
         "artists": [
             {
@@ -826,25 +510,12 @@
         ]
     },
     {
-        "id": "70H64F7Q65tqTkRf3qxAzs",
-        "name": "R-Kive",
-        "release_date": "2014-09-30",
+        "id": "2VMk6eFV1MafApI6Txke5H",
+        "name": "The Last Domino?",
+        "release_date": "2021-11-19",
         "release_date_precision": "day",
-        "total_tracks": 37,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "7Jigl7PJCgN4mAODbJYkFT",
-        "name": "R-Kive",
-        "release_date": "2014-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 37,
+        "total_tracks": 27,
+        "images": "https://i.scdn.co/image/ab67616d0000b2731aab88e09063c742b9d92406",
         "album_type": "compilation",
         "artists": [
             {
@@ -859,6 +530,37 @@
         "release_date": "2007-09-11",
         "release_date_precision": "day",
         "total_tracks": 34,
+        "images": "https://i.scdn.co/image/ab67616d0000b27395ba963c1a8ef41ad73a1f53",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "5ZJrRUIm6apjER9MNU7QBJ",
+        "name": "Archive #2 (1976 - 1992)",
+        "release_date": "2007-06-05",
+        "release_date_precision": "day",
+        "total_tracks": 34,
+        "images": "https://i.scdn.co/image/ab67616d0000b27315fe51ace44a91c6e1dbdfab",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "3CkvROUTQ6nRi9yQOcsB50",
+                "name": "Genesis"
+            }
+        ]
+    },
+    {
+        "id": "12u6LF4yFFfbGK554Duay5",
+        "name": "Archive #1 (1967 - 1975)",
+        "release_date": "2007-06-05",
+        "release_date_precision": "day",
+        "total_tracks": 52,
+        "images": "https://i.scdn.co/image/ab67616d0000b2736e042c39906a7c7d49b67b91",
         "album_type": "compilation",
         "artists": [
             {
@@ -873,34 +575,7 @@
         "release_date": "2004-11-29",
         "release_date_precision": "day",
         "total_tracks": 40,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "3we7A7UllAuA6QH6U9jmHs",
-        "name": "The Platinum Collection",
-        "release_date": "2004-11-29",
-        "release_date_precision": "day",
-        "total_tracks": 40,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "1tlMz7hGkgAvwfSkBjjKaX",
-        "name": "Archive #2 (1976-1992)",
-        "release_date": "2000-11-06",
-        "release_date_precision": "day",
-        "total_tracks": 34,
+        "images": "https://i.scdn.co/image/ab67616d0000b273c3575952bf375d857d00ac3b",
         "album_type": "compilation",
         "artists": [
             {
@@ -915,6 +590,7 @@
         "release_date": "1999-10-25",
         "release_date_precision": "day",
         "total_tracks": 18,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b1380068bf3d8fa619823dfc",
         "album_type": "compilation",
         "artists": [
             {
@@ -924,39 +600,12 @@
         ]
     },
     {
-        "id": "3hT248nR7AvMpltp7xhloR",
-        "name": "Turn It On Again - The Hits",
-        "release_date": "1999-10-25",
+        "id": "5qodJAUN0g46hA2nH4FQdb",
+        "name": "Musica de los 80",
+        "release_date": "2024-07-05",
         "release_date_precision": "day",
-        "total_tracks": 18,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "5IeGusAMhiWsiyvC6RkQQA",
-        "name": "Archive #1 (1967-1975)",
-        "release_date": "1998-06-22",
-        "release_date_precision": "day",
-        "total_tracks": 52,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "3CkvROUTQ6nRi9yQOcsB50",
-                "name": "Genesis"
-            }
-        ]
-    },
-    {
-        "id": "2Iz89uuEkErffhaBrWADUk",
-        "name": "Too Much Sun Will Burn: The British Psychedelic Sounds Of 1967, Vol. 2",
-        "release_date": "2023-03-24",
-        "release_date_precision": "day",
-        "total_tracks": 34,
+        "total_tracks": 60,
+        "images": "https://i.scdn.co/image/ab67616d0000b2733a6ca3f2c7dd9922f435a7dd",
         "album_type": "compilation",
         "artists": [
             {
@@ -966,11 +615,12 @@
         ]
     },
     {
-        "id": "07uJ5p9BqjHx3gqllaC2jX",
-        "name": "Maximum Rock: The 1970s (Live)",
-        "release_date": "2023-03-24",
+        "id": "4p7FdnnwyAPrQ71I58cYgk",
+        "name": "Live At Knebworth",
+        "release_date": "1990-03-22",
         "release_date_precision": "day",
-        "total_tracks": 61,
+        "total_tracks": 23,
+        "images": "https://i.scdn.co/image/ab67616d0000b2738b9ba014c46f3c9e4991aa1b",
         "album_type": "compilation",
         "artists": [
             {
@@ -980,11 +630,12 @@
         ]
     },
     {
-        "id": "7zLZSlZDo5y3WVQpvF0mUI",
-        "name": "What A Groovy Day: The British Sunshine Pop Sound 1967-1972",
-        "release_date": "2023-01-27",
+        "id": "4wPrgqyeAB3oVRbc2Gn7SN",
+        "name": "80s Songs Greatest Hits of the 80s",
+        "release_date": "2024-07-05",
         "release_date_precision": "day",
-        "total_tracks": 53,
+        "total_tracks": 55,
+        "images": "https://i.scdn.co/image/ab67616d0000b273b1f345beddd4779f08df37e2",
         "album_type": "compilation",
         "artists": [
             {
@@ -994,11 +645,12 @@
         ]
     },
     {
-        "id": "0SHq2rjHWegqAL5eo99z8B",
-        "name": "The 80s",
-        "release_date": "2022-01-21",
+        "id": "6qDnzWLS9iC4VMnw2bVYaa",
+        "name": "100 Greatest Rock Songs",
+        "release_date": "2024-10-01",
         "release_date_precision": "day",
-        "total_tracks": 50,
+        "total_tracks": 100,
+        "images": "https://i.scdn.co/image/ab67616d0000b273539b1cca8ad75a9854aa8d53",
         "album_type": "compilation",
         "artists": [
             {
@@ -1008,11 +660,27 @@
         ]
     },
     {
-        "id": "4yN9uaQfB6kMDQTViR50VW",
-        "name": "Radiko Friendly Rock / Pop",
-        "release_date": "2021-12-22",
+        "id": "275HcGV0ruQAVhs2jHoqi5",
+        "name": "UK Records 80 Great Hits From The 60s & 70s",
+        "release_date": "2013-01-01",
         "release_date_precision": "day",
-        "total_tracks": 20,
+        "total_tracks": 80,
+        "images": "https://i.scdn.co/image/ab67616d0000b2732c4a2e47b00f77798a0cea55",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                "name": "Various Artists"
+            }
+        ]
+    },
+    {
+        "id": "59NuMUwaY8IFOR4izi1NUv",
+        "name": "Las 75 mejores baladas romanticas en ingles",
+        "release_date": "2025-02-26",
+        "release_date_precision": "day",
+        "total_tracks": 75,
+        "images": "https://i.scdn.co/image/ab67616d0000b273fdeda5e866f42b8f15f07ac8",
         "album_type": "compilation",
         "artists": [
             {
@@ -1027,6 +695,7 @@
         "release_date": "2021-10-29",
         "release_date_precision": "day",
         "total_tracks": 60,
+        "images": "https://i.scdn.co/image/ab67616d0000b2739a210b0e49528dded3cb69ba",
         "album_type": "compilation",
         "artists": [
             {
@@ -1036,11 +705,12 @@
         ]
     },
     {
-        "id": "7wPF4RKi51XIJa43DvR8gp",
-        "name": "Lullabies For Catatonics: A Journey Through The British Avant-Pop/Art Rock Scene 1967-74",
-        "release_date": "2019-03-31",
+        "id": "7zLZSlZDo5y3WVQpvF0mUI",
+        "name": "What A Groovy Day: The British Sunshine Pop Sound 1967-1972",
+        "release_date": "2023-01-27",
         "release_date_precision": "day",
-        "total_tracks": 31,
+        "total_tracks": 53,
+        "images": "https://i.scdn.co/image/ab67616d0000b2736a97dfe3f88875bb9cc7265e",
         "album_type": "compilation",
         "artists": [
             {
@@ -1050,11 +720,12 @@
         ]
     },
     {
-        "id": "1PGlTPT1EfY9TKy73PIIEh",
-        "name": "Lullabies For Catatonics: A Journey Through The British Avant-Pop/Art Rock Scene 1967-74",
-        "release_date": "2019-03-31",
+        "id": "1PbvACX2ZJ1Gb8YGvnOkVx",
+        "name": "80s Music Hits",
+        "release_date": "2024-07-19",
         "release_date_precision": "day",
-        "total_tracks": 30,
+        "total_tracks": 74,
+        "images": "https://i.scdn.co/image/ab67616d0000b273967f35ca1cd5856931389157",
         "album_type": "compilation",
         "artists": [
             {
@@ -1064,11 +735,27 @@
         ]
     },
     {
-        "id": "4d3cMhOEWklwXwRnpVOn9E",
-        "name": "Revolution: Underground Sounds Of 1968",
-        "release_date": "2019-02-22",
+        "id": "6ZKOXuUTYsK0zknsRGC6Aa",
+        "name": "All Things Bright And Beautiful: The UK Pop Explosion 1967-1969",
+        "release_date": "2025-08-22",
         "release_date_precision": "day",
-        "total_tracks": 12,
+        "total_tracks": 55,
+        "images": "https://i.scdn.co/image/ab67616d0000b27389695e0240afb22cd9e32cc0",
+        "album_type": "compilation",
+        "artists": [
+            {
+                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                "name": "Various Artists"
+            }
+        ]
+    },
+    {
+        "id": "3pKr2R98RiedUFsFp3Aira",
+        "name": "The Devil Rides In: Spellbinding Satanic Magick & The Rockult 1966-1972",
+        "release_date": "2024-07-26",
+        "release_date_precision": "day",
+        "total_tracks": 24,
+        "images": "https://i.scdn.co/image/ab67616d0000b2736837564d769e8eed6e55b8a7",
         "album_type": "compilation",
         "artists": [
             {
@@ -1083,6 +770,7 @@
         "release_date": "2018-11-30",
         "release_date_precision": "day",
         "total_tracks": 34,
+        "images": "https://i.scdn.co/image/ab67616d0000b273be39912efedfb9e988f4f037",
         "album_type": "compilation",
         "artists": [
             {
@@ -1092,11 +780,12 @@
         ]
     },
     {
-        "id": "18HY6SQhO6zXabCk6SHpmd",
-        "name": "Best of Live Recordings",
-        "release_date": "2016-11-21",
+        "id": "2Iz89uuEkErffhaBrWADUk",
+        "name": "Too Much Sun Will Burn: The British Psychedelic Sounds Of 1967, Vol. 2",
+        "release_date": "2023-03-24",
         "release_date_precision": "day",
-        "total_tracks": 16,
+        "total_tracks": 34,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e9435d0544896e738d881421",
         "album_type": "compilation",
         "artists": [
             {
@@ -1106,11 +795,12 @@
         ]
     },
     {
-        "id": "1LpzhdJoTZlctdIZcnHAGL",
-        "name": "UK Records 80 Great Hits from the 60s & 70s",
-        "release_date": "2013-11-11",
+        "id": "7wPF4RKi51XIJa43DvR8gp",
+        "name": "Lullabies For Catatonics: A Journey Through The British Avant-Pop/Art Rock Scene 1967-74",
+        "release_date": "2019-03-31",
         "release_date_precision": "day",
-        "total_tracks": 80,
+        "total_tracks": 31,
+        "images": "https://i.scdn.co/image/ab67616d0000b273ce8240080bc56726e27b277a",
         "album_type": "compilation",
         "artists": [
             {
@@ -1120,11 +810,12 @@
         ]
     },
     {
-        "id": "1PDvi5uU71NCpZ7TPdcl6B",
-        "name": "Virgin Records: 40 Years Of Disruptions",
-        "release_date": "2013-01-01",
+        "id": "4d3cMhOEWklwXwRnpVOn9E",
+        "name": "Revolution: Underground Sounds Of 1968",
+        "release_date": "2019-02-22",
         "release_date_precision": "day",
-        "total_tracks": 46,
+        "total_tracks": 12,
+        "images": "https://i.scdn.co/image/ab67616d0000b273a97bc8af15eec1f9d767433d",
         "album_type": "compilation",
         "artists": [
             {
@@ -1134,11 +825,12 @@
         ]
     },
     {
-        "id": "1XT1kccHXM3IJkNVI4OpDm",
-        "name": "Refugees: A Charisma Records Anthology 1969-1978",
-        "release_date": "2009-01-01",
+        "id": "53MHHAcHa9Zrqwm1KRB3RO",
+        "name": "All God's Children: Songs From The British Jesus Rock Revolution 1967-1974",
+        "release_date": "2023-09-22",
         "release_date_precision": "day",
-        "total_tracks": 44,
+        "total_tracks": 13,
+        "images": "https://i.scdn.co/image/ab67616d0000b273d303af0fb8e359089f05f532",
         "album_type": "compilation",
         "artists": [
             {
@@ -1148,95 +840,12 @@
         ]
     },
     {
-        "id": "4Fjy7QZVcuVfA6SieTWHK8",
-        "name": "From The Heart - More Classics",
-        "release_date": "2008-01-22",
-        "release_date_precision": "day",
-        "total_tracks": 16,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "632ewwUefiYMTZgJi3ofD3",
-        "name": "The Best Dad In The World...Ever!",
-        "release_date": "2007-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 20,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "0gYeTbkXDrxcAG0R2Bmvfl",
-        "name": "Rewind (2CD/DVD in Digi)",
-        "release_date": "2004-10-25",
-        "release_date_precision": "day",
-        "total_tracks": 32,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "2hxnXO4HEoi1bDoDZw8skz",
-        "name": "Rock Line, Vol. 2",
-        "release_date": "2004-09-06",
+        "id": "1PGlTPT1EfY9TKy73PIIEh",
+        "name": "Lullabies For Catatonics: A Journey Through The British Avant-Pop/Art Rock Scene 1967-74",
+        "release_date": "2019-03-31",
         "release_date_precision": "day",
         "total_tracks": 30,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "7JmhuOexvL20gNLaDwuXqE",
-        "name": "Rock Line, Vol. 4",
-        "release_date": "2004-09-06",
-        "release_date_precision": "day",
-        "total_tracks": 29,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "41bKV1rHXo3B0YqU2765yJ",
-        "name": "Live At Knebworth",
-        "release_date": "1990-03-22",
-        "release_date_precision": "day",
-        "total_tracks": 23,
-        "album_type": "compilation",
-        "artists": [
-            {
-                "id": "0LyfQWJT6nXafLPZqxe9Of",
-                "name": "Various Artists"
-            }
-        ]
-    },
-    {
-        "id": "05oAlFLlDxNiKWl2d8NcX7",
-        "name": "Live At Knebworth 1990",
-        "release_date": "1990-01-01",
-        "release_date_precision": "day",
-        "total_tracks": 22,
+        "images": "https://i.scdn.co/image/ab67616d0000b273e292a0b679d58f6f52ea67a7",
         "album_type": "compilation",
         "artists": [
             {
