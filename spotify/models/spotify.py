@@ -1,10 +1,10 @@
-from datetime import date, datetime
-from pydantic import BaseModel, Extra, Field, validator
+from datetime import date, datetime, timezone
+from pydantic import BaseModel, Field, field_validator
 
 
-class Artist(BaseModel, extra=Extra.ignore):
+class Artist(BaseModel, extra="ignore"):
     progarchives_artist_id: int = Field(alias="_progarchives_artist_id", default=None)
-    updated_at: datetime = Field(alias="_updated_at", default_factory=datetime.utcnow)
+    updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str
     name: str
@@ -13,37 +13,39 @@ class Artist(BaseModel, extra=Extra.ignore):
     genres: list[str] = []
 
     def dict(self, *args, **kwargs):
-        _dict = super().dict(by_alias=True, *args, **kwargs) 
+        _dict = super().model_dump(by_alias=True, *args, **kwargs)
         _dict['_updated_at'] = self.updated_at.isoformat()
         return _dict
 
 
-class ArtistRef(BaseModel, extra=Extra.ignore):
+class ArtistRef(BaseModel, extra="ignore"):
     id: str
     name: str
 
 
-class Album(BaseModel, extra=Extra.ignore):
+class Album(BaseModel, extra="ignore"):
     progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
-    updated_at: datetime = Field(alias="_updated_at", default_factory=datetime.utcnow)
+    updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str
     name: str
-    release_date: date = None
+    release_date: date | None = None
     release_date_precision: str = None
     total_tracks: int = None
     image_url: str = Field(alias="images", default=None)
     album_type: str = None
     artists: list[ArtistRef] = []
 
-    @validator("release_date", pre=True)
+    @field_validator("release_date", mode="before")
+    @classmethod
     def parse_release_date(cls, value):
         try:
             return datetime.strptime(value, "%Y-%m-%d").date()
         except Exception:
             return None
 
-    @validator("image_url", pre=True)
+    @field_validator("image_url", mode="before")
+    @classmethod
     def parse_image_url(cls, value):
         images = value
 
@@ -56,15 +58,15 @@ class Album(BaseModel, extra=Extra.ignore):
         return bigger_image["url"]
 
     def dict(self, *args, **kwargs):
-        _dict = super().dict(by_alias=True, *args, **kwargs) 
+        _dict = super().model_dump(by_alias=True, *args, **kwargs)
         _dict['release_date'] = self.release_date.isoformat() if self.release_date else None
         _dict['_updated_at'] = self.updated_at.isoformat()
         return _dict
 
 
-class Track(BaseModel, extra=Extra.ignore):
+class Track(BaseModel, extra="ignore"):
     progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
-    updated_at: datetime = Field(alias="_updated_at", default_factory=datetime.utcnow)
+    updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str
     name: str
@@ -77,14 +79,14 @@ class Track(BaseModel, extra=Extra.ignore):
     artists: list[ArtistRef] = []
 
     def dict(self, *args, **kwargs):
-        _dict = super().dict(by_alias=True, *args, **kwargs) 
+        _dict = super().model_dump(by_alias=True, *args, **kwargs)
         _dict['_updated_at'] = self.updated_at.isoformat()
         return _dict
 
 
-class AudioFeature(BaseModel, extra=Extra.ignore):
+class AudioFeature(BaseModel, extra="ignore"):
     progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
-    updated_at: datetime = Field(alias="_updated_at", default_factory=datetime.utcnow)
+    updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str  # Track ID
     danceability: float = None
@@ -103,6 +105,6 @@ class AudioFeature(BaseModel, extra=Extra.ignore):
     analysis_url: str = None
 
     def dict(self, *args, **kwargs):
-        _dict = super().dict(by_alias=True, *args, **kwargs) 
+        _dict = super().model_dump(by_alias=True, *args, **kwargs)
         _dict['_updated_at'] = self.updated_at.isoformat()
         return _dict
