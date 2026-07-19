@@ -1,32 +1,14 @@
-[tool.poetry]
+[project]
 name = "spotify"
 version = "0.1.0"
-description = "Enrich progarchives albums data"
-authors = ["Shinkenuu"]
+description = "Matches ProgArchives' artists and albums with Spotify's"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-pymongo = "^4.3.3"
-spotipy = "^2.23.0"
-thefuzz = "^0.19.0"
-pydantic = "^1.10.7"
-tqdm = "^4.65.0"
-python-levenshtein = "^0.21.0"
-
-[tool.poetry.scripts]
-catch_up = "catch_up_with_progarchives:main"
-
-search_artist = "fetch:search_artist"
-search_artist_albums = "fetch:search_artist_albums"
-fetch_artist_albums = "fetch:fetch_artist_albums"
-
-refresh_artist = "refresh:refresh_progarchives_artist"
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^7.3.1"
-ruff = "^0.6.8"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "spotipy>=2.25.0",
+    "pymongo>=4.3.3",
+    "pydantic>=1.10.7",
+    "tqdm>=4.65.0",
+    "thefuzz>=0.19.0",
+    "python-levenshtein>=0.21.0",
+]
