@@ -2,14 +2,13 @@ from os import environ
 
 from spotify import artists, albums
 from spotify.clients import SpotifyClient
-from spotify.repositories.local import ProgarchiveArtistLocalRepository
+from spotify.repositories.progarchives import ProgArchivesArtistRepository
 
 
 def refresh_progarchives_artist(progarchives_artist_id: str = environ.get("ARTIST_ID")):
     spotify_client = SpotifyClient()
 
-    progarchives_artists = ProgarchiveArtistLocalRepository.read()
-    progarchives_artist = progarchives_artists[progarchives_artist_id]
+    progarchives_artist = ProgArchivesArtistRepository.find_one(progarchives_artist_id)
 
     progarchives_album_names = progarchives_artist["albums"].values()
 

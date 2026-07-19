@@ -3,7 +3,7 @@ from typing import Any, Type
 from pydantic import BaseModel
 from pymongo import MongoClient
 
-from config import DATABASE_URI
+from config import SPOTIFY_DATABASE_URI
 
 # from spotify.repositories.decorators import ignore_dups
 from spotify.models import ProgSpot
@@ -20,7 +20,7 @@ class MongoDB:
             return cls._instance
         
         cls._instance = super().__new__(cls)
-        cls._instance._client = MongoClient(DATABASE_URI)
+        cls._instance._client = MongoClient(SPOTIFY_DATABASE_URI)
         cls._instance._db = cls._instance._client.spotify
         cls._instance._create_indexes()
 

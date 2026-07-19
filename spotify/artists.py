@@ -7,7 +7,7 @@ from tqdm import tqdm
 from spotify.clients import SpotifyClient
 from spotify.models import ProgSpot
 from spotify.models.spotify import Album
-from spotify.repositories.local import ProgarchiveArtistLocalRepository
+from spotify.repositories.progarchives import ProgArchivesArtistRepository
 from spotify.repositories.mongo import ArtistMongoRepository, ProgSpotMongoRepository
 
 
@@ -56,7 +56,7 @@ def _rate_candidate(
 def _search_prog_spot_match(
     progarchives_artist_name: str,
     progarchives_album_names: list[str],
-    spotify_client: SpotifyClient = None,
+    spotify_client: SpotifyClient | None = None,
     min_candidate_pre_rate: int = 90,
     min_candidate_rate: int = 100,
     pre_rate_sample_size: int = 50,
@@ -197,10 +197,12 @@ def sync(
 def main():
     spotify_client = SpotifyClient()
 
-    progarchives_artists = ProgarchiveArtistLocalRepository.read()
+    total = ProgArchivesArtistRepository.count_all()
 
-    for progarchives_artist_id in tqdm(progarchives_artists):
-        progarchives_artist = progarchives_artists[progarchives_artist_id]
+    for progarchives_artist_id, progarchives_artist in tqdm(
+        ProgArchivesArtistRepository.iter_all(),
+        total=total,
+    ):
         progarchives_album_names = progarchives_artist["albums"].values()
 
         try:

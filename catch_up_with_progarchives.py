@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 from spotify import artists, albums
 from spotify.clients import SpotifyClient
-from spotify.repositories.local import ProgarchiveArtistLocalRepository
+from spotify.repositories.progarchives import ProgArchivesArtistRepository
 from spotify.repositories.mongo import ProgSpotMongoRepository
 
 logging.basicConfig(filename='catch_up_with_progarchives.log', filemode='a', level=logging.DEBUG)
@@ -13,10 +13,13 @@ logging.basicConfig(filename='catch_up_with_progarchives.log', filemode='a', lev
 def main():
     spotify_client = SpotifyClient()
 
-    progarchives_artists = ProgarchiveArtistLocalRepository.read()
-    logging.info(f'Total progarchives artists: {len(progarchives_artists)}')
+    total = ProgArchivesArtistRepository.count_all()
+    logging.info(f'Total progarchives artists: {total}')
 
-    for progarchives_artist_id in tqdm(progarchives_artists):
+    for progarchives_artist_id, progarchives_artist in tqdm(
+        ProgArchivesArtistRepository.iter_all(),
+        total=total,
+    ):
 
         logging.debug(f'Progarchives artist {progarchives_artist_id}')
 
@@ -24,7 +27,6 @@ def main():
             logging.info(f'Progarchives artist {progarchives_artist_id} already exists in mongo')
             continue
 
-        progarchives_artist = progarchives_artists[progarchives_artist_id]
         progarchives_album_names = progarchives_artist["albums"].values()
 
         logging.info(f'Progarchives artist: {progarchives_artist}')

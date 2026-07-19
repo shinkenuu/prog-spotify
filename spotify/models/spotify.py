@@ -5,12 +5,12 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 class Artist(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
-    progarchives_artist_id: int = Field(alias="_progarchives_artist_id", default=None)
+    progarchives_artist_id: int | None = Field(alias="_progarchives_artist_id", default=None)
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str
     name: str
-    popularity: int = None
+    popularity: int | None = None
 
     genres: list[str] = []
 
@@ -33,11 +33,11 @@ class Album(BaseModel):
 
     id: str
     name: str
-    release_date: date | None = None
-    release_date_precision: str = None
-    total_tracks: int = None
+    release_date: date | None | None = None
+    release_date_precision: str | None = None
+    total_tracks: int | None = None
     image_url: str = Field(alias="images", default=None)
-    album_type: str = None
+    album_type: str | None = None
     artists: list[ArtistRef] = []
 
     @field_validator("release_date", mode="before")
@@ -75,11 +75,11 @@ class Track(BaseModel):
 
     id: str
     name: str
-    track_number: int = None
-    disc_number: int = None
-    release_date_precision: str = None
-    duration_ms: int = None
-    explicit: bool = None
+    track_number: int | None = None
+    disc_number: int | None = None
+    release_date_precision: str | None = None
+    duration_ms: int | None = None
+    explicit: bool | None = None
 
     artists: list[ArtistRef] = []
 
@@ -95,20 +95,20 @@ class AudioFeature(BaseModel):
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
     id: str  # Track ID
-    danceability: float = None
-    energy: float = None
-    key: int = None
-    loudness: float = None
-    mode: int = None
-    speechiness: float = None
-    acousticness: float = None
-    instrumentalness: float = None
-    liveness: float = None
-    valence: float = None
-    tempo: float = None
-    duration_ms: int = None
-    time_signature: int = None
-    analysis_url: str = None
+    danceability: float | None = None
+    energy: float | None = None
+    key: int | None = None
+    loudness: float | None = None
+    mode: int | None = None
+    speechiness: float | None = None
+    acousticness: float | None = None
+    instrumentalness: float | None = None
+    liveness: float | None = None
+    valence: float | None = None
+    tempo: float | None = None
+    duration_ms: int | None = None
+    time_signature: int | None = None
+    analysis_url: str | None = None
 
     def dict(self, *args, **kwargs):
         _dict = super().model_dump(by_alias=True, *args, **kwargs)

@@ -6,7 +6,7 @@ from tqdm import tqdm
 from spotify.clients import SpotifyClient
 from spotify.models import ProgSpot
 from spotify.models.spotify import Artist, Album
-from spotify.repositories.local import ProgarchiveAlbumLocalRepository
+from spotify.repositories.progarchives import ProgArchivesAlbumRepository
 from spotify.repositories.mongo import (
     ArtistMongoRepository,
     AlbumMongoRepository,
@@ -54,7 +54,7 @@ def sync(
     prog_spot = ProgSpot(
         prog_artist_id=int(progarchives_artist_id),
         prog_album_id=int(progarchives_album_id),
-        spotify_album_id=spotify_album.id if spotify_album else None,
+        spot_album_id=spotify_album.id if spotify_album else None,
     )
     ProgSpotMongoRepository.upsert(prog_spot)
 
@@ -72,7 +72,7 @@ def sync_by_spotify_artist(
     spotify_artist: Artist,
     progarchives_album_id: int,
     progarchives_album_name: str,
-    spotify_client: SpotifyClient = None,
+    spotify_client: SpotifyClient | None = None,
 ):
     spotify_client = spotify_client or SpotifyClient()
 
@@ -81,10 +81,10 @@ def sync_by_spotify_artist(
     )
 
     spotify_album = sync(
-        progarchives_artist_id=spotify_artist._progarchives_artist_id,
+        progarchives_artist_id=spotify_artist.progarchives_artist_id,
         progarchives_album_id=progarchives_album_id,
         progarchives_album_name=progarchives_album_name,
-        spotify_artist_albums=spotify_artist_albums,
+        spotify_albums=spotify_artist_albums,
     )
 
     return spotify_album
@@ -93,9 +93,9 @@ def sync_by_spotify_artist(
 def main():
     spotify_client = SpotifyClient()
 
-    progarchives_artists_albums = ProgarchiveAlbumLocalRepository.read()
-
-    for progarchives_artist_id in tqdm(progarchives_artists_albums):
+    for progarchives_artist_id, progarchives_artist_albums in tqdm(
+        ProgArchivesAlbumRepository.iter_all(),
+    ):
         try:
             spotify_artist = ArtistMongoRepository.find_one(
                 {"_progarchives_artist_id": progarchives_artist_id}
@@ -103,10 +103,6 @@ def main():
 
             if not spotify_artist:
                 continue
-
-            progarchives_artist_albums = progarchives_artists_albums[
-                progarchives_artist_id
-            ]
 
             for progarchives_album_id in progarchives_artist_albums:
                 progarchives_album_name = progarchives_artist_albums[
