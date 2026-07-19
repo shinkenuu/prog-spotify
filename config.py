@@ -10,7 +10,7 @@ SPOTIFY_DATABASE_URI = getenv(
 
 PROGARCHIVES_DATABASE_URL = getenv(
     "PROGARCHIVES_DATABASE_URL",
-    "postgresql://prog:prog@127.0.0.1:5432/progarchives?options=-c%20default_transaction_read_only=on",
+    "postgresql://prog:prog@127.0.0.1:5432/progarchives",
 )
 
 PAGINATION_INTERVAL_SECONDS = int(getenv("SLEEP_SECONDS", "3"))
