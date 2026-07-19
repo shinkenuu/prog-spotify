@@ -1,8 +1,10 @@
 from datetime import date, datetime, timezone
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
-class Artist(BaseModel, extra="ignore"):
+class Artist(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+
     progarchives_artist_id: int = Field(alias="_progarchives_artist_id", default=None)
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
@@ -18,12 +20,14 @@ class Artist(BaseModel, extra="ignore"):
         return _dict
 
 
-class ArtistRef(BaseModel, extra="ignore"):
+class ArtistRef(BaseModel):
+    model_config = ConfigDict(extra="ignore")
     id: str
     name: str
 
 
-class Album(BaseModel, extra="ignore"):
+class Album(BaseModel):
+    model_config = ConfigDict(extra="ignore")
     progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
@@ -64,7 +68,8 @@ class Album(BaseModel, extra="ignore"):
         return _dict
 
 
-class Track(BaseModel, extra="ignore"):
+class Track(BaseModel):
+    model_config = ConfigDict(extra="ignore")
     progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 
@@ -84,7 +89,8 @@ class Track(BaseModel, extra="ignore"):
         return _dict
 
 
-class AudioFeature(BaseModel, extra="ignore"):
+class AudioFeature(BaseModel):
+    model_config = ConfigDict(extra="ignore")
     progarchives_album_id: int = Field(alias="_progarchives_album_id", default=None)
     updated_at: datetime = Field(alias="_updated_at", default_factory=lambda: datetime.now(timezone.utc))
 

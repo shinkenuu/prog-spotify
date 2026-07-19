@@ -68,7 +68,7 @@ class MongoRepository:
     @classmethod
     def upsert(cls, document):
         collection = cls._get_collection()
-        document_json = document.dict()
+        document_json = document.model_dump(by_alias=True)
         return collection.replace_one(
             {"id": document_json["id"]}, document_json, upsert=True
         ).upserted_id
@@ -113,7 +113,7 @@ class ProgSpotMongoRepository(MongoRepository):
     @classmethod
     def upsert(cls, document):
         collection = cls._get_collection()
-        document_dict = document.dict(exclude_unset=True)
+        document_dict = document.model_dump(exclude_unset=True, by_alias=True)
 
         upsert_keys = {
             field: value

@@ -31,7 +31,7 @@ class JsonWriteMixin:
     def write(cls, content: Iterable, path: str = None):
         path = path or cls._path
 
-        writable = [item.dict() for item in content] if cls._model else content
+        writable = [item.model_dump(by_alias=True) for item in content] if cls._model else content
 
         with open(path, "w") as file:
             return json.dump(writable, file)

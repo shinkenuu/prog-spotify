@@ -1,7 +1,8 @@
-from pydantic import BaseModel, Extra
+from pydantic import BaseModel, ConfigDict
 
 
-class Artist(BaseModel, extra=Extra.ignore):
+class Artist(BaseModel):
+    model_config = ConfigDict(extra="ignore")
     name: str
     albums: dict[int, str]
 

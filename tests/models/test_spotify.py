@@ -2,10 +2,10 @@ from spotify.models.spotify import Artist, Album, Track, AudioFeature
 
 
 def _compare_without_updated_at(actual, expected):
-    actual_dict = actual.dict()
+    actual_dict = actual.model_dump(by_alias=True)
     actual_dict.pop("_updated_at")
 
-    expected_dict = expected.dict()
+    expected_dict = expected.model_dump(by_alias=True)
     expected_dict.pop("_updated_at")
 
     assert actual_dict == expected_dict

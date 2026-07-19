@@ -1,8 +1,9 @@
 from datetime import datetime, timezone
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
-class ProgSpot(BaseModel, extra="ignore"):
+class ProgSpot(BaseModel):
+    model_config = ConfigDict(extra="ignore")
     prog_artist_id: int = None
     spot_artist_id: str = None
 
