@@ -68,7 +68,7 @@ class MongoRepository:
     @classmethod
     def upsert(cls, document):
         collection = cls._get_collection()
-        document_json = document.model_dump(by_alias=True)
+        document_json = document.model_dump(by_alias=True, mode="json")
         return collection.replace_one(
             {"id": document_json["id"]}, document_json, upsert=True
         ).upserted_id
