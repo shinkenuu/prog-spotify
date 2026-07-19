@@ -1,5 +1,5 @@
 test:
-	pytest ./tests -vv
+	uv run pytest ./tests -vv
 
 lint:
 	uv tool run ruff check . --fix
