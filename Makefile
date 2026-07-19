@@ -2,7 +2,7 @@ test:
 	pytest ./tests -vv
 
 lint:
-	ruff check . --fix
+	uv tool run ruff check . --fix
 
 clean:
 	rm -r ./**/__pycache__/
