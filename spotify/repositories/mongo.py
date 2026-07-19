@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Union
 
 from pymongo import MongoClient
 
@@ -75,12 +75,14 @@ class ProgSpotMongoRepository(MongoRepository):
     _model = ProgSpot
 
     @classmethod
-    def has_progarchives_artist(cls, artist_id: str | int):
-        return cls._collection.count_documents({"prog_artist_id": int(artist_id)}) > 0
+    def has_progarchives_artist(cls, artist_id: Union[str | int]):
+        prog_artist_id = int(artist_id) if isinstance(artist_id, str) else artist_id
+        return cls._collection.count_documents({"prog_artist_id": prog_artist_id}) > 0
 
     @classmethod
-    def has_progarchives_album(cls, album_id: str | int):
-        return cls._collection.count_documents({"prog_album_id": int(album_id)}) > 0
+    def has_progarchives_album(cls, album_id: Union[str | int]):
+        album_id_ = int(album_id) if isinstance(album_id, str) else album_id
+        return cls._collection.count_documents({"prog_album_id": album_id_}) > 0
 
     @classmethod
     def upsert(cls, document):
