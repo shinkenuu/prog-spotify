@@ -67,18 +67,18 @@ def _search_prog_spot_match(
     spotify_artist_candidates = spotify_client.search_artist(progarchives_artist_name)
 
     if not spotify_artist_candidates:
-        logging.debug(f"No spotify artist found by {progarchives_artist_name}")
+        logging.info(f"No spotify artist found by {progarchives_artist_name}")
         return (None, *[])
 
     best_candidate_rate = min_candidate_rate * 1
     best_candidate = {}
 
     for spotify_artist_candidate in spotify_artist_candidates:
-        logging.debug(
+        logging.info(
             f"Rating spotify artist {spotify_artist_candidate.id} {spotify_artist_candidate.name}"
         )
 
-        logging.debug(
+        logging.info(
             f"Pre-rating spotify artist {spotify_artist_candidate.id} by name"
         )
         # This prevents eagerly fetching unpromising artists albums, wasting API quota
@@ -89,15 +89,15 @@ def _search_prog_spot_match(
             spotify_albums=[],
         )
 
-        logging.debug(
+        logging.info(
             f"Pre-rated spotify artist {spotify_artist_candidate.id} by name  with {candidate_pre_rate}"
         )
 
         if candidate_pre_rate < min_candidate_pre_rate:
-            logging.debug(f"Pre-rate {candidate_pre_rate} is not enough")
+            logging.info(f"Pre-rate {candidate_pre_rate} is not enough")
             continue
 
-        logging.debug(
+        logging.info(
             f"Pre-rating spotify artist {spotify_artist_candidate.id} by albums"
         )
         # This prevents eagerly fetching unpromising artists albums, wasting API quota
@@ -118,15 +118,15 @@ def _search_prog_spot_match(
             spotify_albums=pre_rate_spotify_albums,
         )
 
-        logging.debug(
+        logging.info(
             f"Pre-rated spotify artist {spotify_artist_candidate.id} with {candidate_pre_rate}"
         )
 
         if candidate_pre_rate < min_candidate_rate:
-            logging.debug(f"Pre-rate {candidate_pre_rate} is not enough")
+            logging.info(f"Pre-rate {candidate_pre_rate} is not enough")
             continue
 
-        logging.debug(f"Fully rating spotify artist {spotify_artist_candidate.id}")
+        logging.info(f"Fully rating spotify artist {spotify_artist_candidate.id}")
         candidate_spotify_albums = pre_rate_spotify_albums + list(
             lazy_candidate_spotify_albums
         )
@@ -138,7 +138,7 @@ def _search_prog_spot_match(
             spotify_albums=candidate_spotify_albums,
         )
 
-        logging.debug(
+        logging.info(
             f"Rated spotify artist {spotify_artist_candidate.id} with {candidate_rate}"
         )
 
@@ -150,10 +150,10 @@ def _search_prog_spot_match(
             }
 
         if candidate_rate >= enough_candidate_rate:
-            logging.debug(f"Rate {candidate_rate} is enough")
+            logging.info(f"Rate {candidate_rate} is enough")
             break
 
-    logging.debug(f"Best candidate {best_candidate}")
+    logging.info(f"Best candidate {best_candidate}")
     return best_candidate.get("artist"), *best_candidate.get("albums", [])
 
 

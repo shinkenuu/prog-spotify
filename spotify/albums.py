@@ -56,7 +56,12 @@ def _match_prog_spot_album(
     spotify_albums: list[Album],
     album_fuzz_threshold: int = 90,
 ):
+    logging.info(
+        f"Matching progarchives album {progarchives_album_name} against {len(spotify_albums)} spotify albums"
+    )
+
     if not spotify_albums:
+        logging.info(f"No spotify albums to match {progarchives_album_name}")
         return None
 
     query_base = progarchives_album_name.lower()
@@ -69,15 +74,24 @@ def _match_prog_spot_album(
     for album in spotify_albums:
         base_name = _get_base_album_name(album.name)
         fuzzy_score = process.extractOne(query_base, [base_name])[1]
+        
         if fuzzy_score >= album_fuzz_threshold:
             version_pref = _score_album_version(album.name)
+            logging.info(
+                f"Spotify album {album.id} {album.name} scored {fuzzy_score} (version pref {version_pref})"
+            )
             candidates.append((album, fuzzy_score, version_pref))
 
     if not candidates:
+        logging.info(f"No spotify album match for {progarchives_album_name}")
         return None
 
     # Sort by fuzzy score first, then version preference as tiebreaker
     best_album, _, _ = max(candidates, key=lambda x: (x[1], x[2]))
+
+    logging.info(
+        f"Best match for {progarchives_album_name}: {best_album.id} {best_album.name}"
+    )
 
     return best_album
 
@@ -118,10 +132,20 @@ def sync_by_spotify_artist(
     progarchives_album_name: str,
     spotify_client: SpotifyClient | None = None,
 ):
+    logging.info(
+        f"Syncing album {progarchives_album_id} {progarchives_album_name} for spotify artist {spotify_artist.id} {spotify_artist.name}"
+    )
+
     spotify_client = spotify_client or SpotifyClient()
 
-    spotify_artist_albums = spotify_client.artist_albums(
-        spotify_artist.id, album_type="album", limit=50
+    spotify_artist_albums = list(
+        spotify_client.artist_albums(
+            spotify_artist.id, album_type="album", limit=50
+        )
+    )
+
+    logging.info(
+        f"Fetched {len(spotify_artist_albums)} spotify albums for {spotify_artist.name}"
     )
 
     spotify_album = sync(

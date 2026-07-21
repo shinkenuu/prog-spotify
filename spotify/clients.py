@@ -7,7 +7,7 @@ from typing import Iterable
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyClientCredentials
 
-from config import MIN_SECONDS_BETWEEN_REQUESTS, PAGINATION_INTERVAL_SECONDS
+from config import settings
 from spotify.models.spotify import Artist, Album, Track, AudioFeature
 
 
@@ -16,7 +16,7 @@ def rate_limited(method):
     def wrapper(self, *args, **kwargs):
         elapsed_seconds = datetime.now().timestamp() - self._last_called_timestamp
 
-        if elapsed_seconds < MIN_SECONDS_BETWEEN_REQUESTS:
+        if elapsed_seconds < settings.MIN_SECONDS_BETWEEN_REQUESTS:
             sleep(1)
 
         self._last_called_timestamp = datetime.now().timestamp()
@@ -28,7 +28,7 @@ def rate_limited(method):
 class SpotifyClient:
     _last_called_timestamp = 0
 
-    def __init__(self, client_id: str = None, client_secret: str = None):
+    def __init__(self, client_id: str  = settings.SPOTIPY_CLIENT_ID, client_secret: str = settings.SPOTIPY_CLIENT_SECRET):
         client_credentials = SpotifyClientCredentials(
             client_id=client_id,
             client_secret=client_secret,
@@ -106,7 +106,7 @@ class SpotifyClient:
     def _generate_items(
         self,
         results,
-        sleep_seconds: float = PAGINATION_INTERVAL_SECONDS,
+        sleep_seconds: float = 0,
         max_pages: int = 5,
     ):
         page = 0
@@ -118,7 +118,7 @@ class SpotifyClient:
                 yield item
 
             logging.debug(
-                f"Sleeping for {PAGINATION_INTERVAL_SECONDS} seconds before next result page"
+                f"Sleeping for {settings.PAGINATION_INTERVAL_SECONDS} seconds before next result page"
             )
             sleep(sleep_seconds)
             results = self._client.next(results)

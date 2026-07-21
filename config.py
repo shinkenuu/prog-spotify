@@ -1,17 +1,29 @@
-from os import getenv
+from pydantic import Field
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
-SPOTIPY_CLIENT_ID = getenv("SPOTIPY_CLIENT_ID")
-SPOTIPY_CLIENT_SECRET = getenv("SPOTIPY_CLIENT_SECRET")
 
-SPOTIFY_DATABASE_URI = getenv(
-    "SPOTIFY_DATABASE_URI",
-    "mongodb://root:leaf@127.0.0.1:27018/spotify?authSource=admin&authMechanism=SCRAM-SHA-256",
-)
+class Settings(BaseSettings):
+    """Application settings loaded from environment variables and .env file."""
 
-PROGARCHIVES_DATABASE_URL = getenv(
-    "PROGARCHIVES_DATABASE_URL",
-    "postgresql://prog:prog@127.0.0.1:5432/progarchives",
-)
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+    )
 
-PAGINATION_INTERVAL_SECONDS = int(getenv("SLEEP_SECONDS", "3"))
-MIN_SECONDS_BETWEEN_REQUESTS = int(getenv("MIN_SECONDS_BETWEEN_REQUESTS", "3"))
+    SPOTIPY_CLIENT_ID: str
+    SPOTIPY_CLIENT_SECRET: str
+
+    SPOTIFY_DATABASE_URI: str = (
+        "mongodb://root:leaf@127.0.0.1:27018/spotify"
+        "?authSource=admin&authMechanism=SCRAM-SHA-256"
+    )
+
+    PROGARCHIVES_DATABASE_URL: str = (
+        "postgresql://prog:prog@127.0.0.1:5432/progarchives"
+    )
+
+    PAGINATION_INTERVAL_SECONDS: int = Field(default=3, alias="SLEEP_SECONDS")
+    MIN_SECONDS_BETWEEN_REQUESTS: int = 3
+
+
+settings = Settings()

@@ -4,7 +4,7 @@ from typing import Any, Generator
 
 import psycopg
 
-from config import PROGARCHIVES_DATABASE_URL
+from config import settings
 
 
 class ProgArchivesDB:
@@ -17,7 +17,7 @@ class ProgArchivesDB:
             return cls._instance
 
         cls._instance = super().__new__(cls)
-        cls._instance._conn = psycopg.connect(PROGARCHIVES_DATABASE_URL)
+        cls._instance._conn = psycopg.connect(settings.PROGARCHIVES_DATABASE_URL)
         cls._instance._conn.autocommit = True
 
         return cls._instance

@@ -50,7 +50,7 @@ def catch_up(start_from):
     artist ID after an interruption.
     """
     logging.basicConfig(
-        filename="catch_up_with_progarchives.log", filemode="a", level=logging.DEBUG
+        filename="catch_up_with_progarchives.log", filemode="a", level=logging.INFO
     )
 
     spotify_client = SpotifyClient()
