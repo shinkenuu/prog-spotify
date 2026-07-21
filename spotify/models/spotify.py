@@ -36,7 +36,7 @@ class Album(BaseModel):
     release_date: date | None | None = None
     release_date_precision: str | None = None
     total_tracks: int | None = None
-    image_url: str = Field(alias="images", default=None)
+    image_url: str | None = Field(alias="images", default=None)
     album_type: str | None = None
     artists: list[ArtistRef] = []
 
